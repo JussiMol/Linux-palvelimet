@@ -62,7 +62,7 @@ Nopealla vilkaisulla näytti blue screeniltä, mutta eipä kaatunutkaan.<br>
 Testasin Googlaamatta komentoa millä lähtisi ohjelma päälle ja näköjään wireshark riitti siihen.<br>
 <br>
 Kolmas ohjelma terminaalissa toimiva speedtest.<br>
-curl komennolla joudutaan hakemaan nettisivulta tiedot ohjelmasta.<br>
+curl komennolla suoritetaan skripti joka hakee nettisivulta speedtestin paketin paketinhallintajärjestelmään. <br>
 $ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash <br>
 $ sudo apt-get install speedtest <br>
 Ohjelma asennettu tuttuun tapaan <br>

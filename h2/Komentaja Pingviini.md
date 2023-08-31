@@ -43,7 +43,7 @@ Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin lö
 ## Kolme ohjelmaa
 Ensimmäiseksi ohjelmaksi valikoitui VLC media player. <br>
 $ sudo apt install vlc. Haluanko jatkaa? Yes.<br>
-Ohjelma asennettu. Avataan komennolla vlc source.<br>
+Ohjelma asennettu. Avautuu komennolla vlc tai vlc source mikäli on joku media mitä ajaa ohjelmassa.<br>
 Ihan perus ohjelma videoiden katseluun.<br>
 <br>
 ![Description](vlc.png)

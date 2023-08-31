@@ -42,9 +42,11 @@ Mikäli perehtyisi Virtualboxin sielunelämään enemmän voisi ymmärtää mit�
 Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin löytyvän. <br>
 ## Kolme ohjelmaa
 Ensimmäiseksi ohjelmaksi valikoitui VLC media player. <br>
-$ sudo apt install vlc. Haluanko jatkaa? Yes.
-Ohjelma asennettu. Avataan komennolla vlc source.
+$ sudo apt install vlc. Haluanko jatkaa? Yes.<br>
+Ohjelma asennettu. Avataan komennolla vlc source.<br>
+<br>
 ![Description](vlc.png)
-
+<br>
+Toinen ohjelma olisi sitten
 ## Tärkeimmät hakemistot
 

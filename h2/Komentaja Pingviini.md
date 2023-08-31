@@ -11,7 +11,7 @@ $ rm (tiedosto) . Remove. Poistaa tiedoston  <br>
 $ rmdir (hakemisto) . Remove directory. Poistaa hakemiston<br>
 $ man (komennon nimi) . Manual. Näyttää komennon ohjesivun.<br>
 <br>
-Lähde (Tero Karvinen) <br>
+Lähde (Tero Karvinen, Command Line Basics Revisited) <br>
 ## Ennen kuin tehdään mitään muuta
 Päivitetään pakettienhallinta niin saadaan varmasti uusimmat versiot.<br>
 Kuvassa ei näy, mutta terminaali kysyy myös salasanan pääkäyttäjän oikeuksille.<br>

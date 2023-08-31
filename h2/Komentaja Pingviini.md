@@ -17,5 +17,5 @@ Lähde (Tero Karvinen) <br>
 Ajetaan komento $ sudo apt install micro. <br>
 Huom. Asensin jo oppitunnilla micron niin terminaalin tuloste saattaa näyttää erilaiselta. <br>
 Myös ennen ohjelman asennusta terminaali kysyy. Do you want to continue [y/n] kirjoita Y ja enter. <br>
-
+![Description](png)
 

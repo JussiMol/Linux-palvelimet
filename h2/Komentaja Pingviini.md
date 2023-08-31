@@ -12,10 +12,15 @@ $ rmdir (hakemisto) . Remove directory. Poistaa hakemiston<br>
 $ man (komennon nimi) . Manual. Näyttää komennon ohjesivun.<br>
 <br>
 Lähde (Tero Karvinen) <br>
-
+## Ennen kuin tehdään mitään muuta
+Päivitetään pakettienhallinta niin saadaan varmasti uusimmat versiot.<br>
+Kuvassa ei näy, mutta terminaali kysyy myös salasanan pääkäyttäjän oikeuksille.<br>
+<br>
+![Description](apt-upgrade.png)
 ## Micro tekstieditori
 Ajetaan komento $ sudo apt install micro. <br>
-Huom. Asensin jo oppitunnilla micron niin terminaalin tuloste saattaa näyttää erilaiselta. <br>
+Huom. Asensin jo oppitunnilla micron niin terminaalin tuloste saattaa näyttää sinulla erilaiselta. <br>
 Myös ennen ohjelman asennusta terminaali kysyy. Do you want to continue [y/n] kirjoita Y ja enter. <br>
-![Description](png)
+<br>
+![Description](micro.png)
 

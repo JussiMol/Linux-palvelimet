@@ -44,9 +44,16 @@ Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin lö
 Ensimmäiseksi ohjelmaksi valikoitui VLC media player. <br>
 $ sudo apt install vlc. Haluanko jatkaa? Yes.<br>
 Ohjelma asennettu. Avataan komennolla vlc source.<br>
+Ihan perus ohjelma videoiden katseluun.
 <br>
 ![Description](vlc.png)
 <br>
-Toinen ohjelma olisi sitten
+Toinen ohjelma olisi sitten Wireshark Network Analyzer.<br>
+Tällä voidaan analysoida verkkoliikennettä.<br>
+Asentaessa kysyy voiko muutkin kuin pääkäyttäjät tallentaa verkkoliikennettä. Ei kyllä anneta siihen oikeuksia. <br>
+<br>
+![Description](wireshark.png)
+<br>
+![Description](wireshark1.png)
 ## Tärkeimmät hakemistot
 

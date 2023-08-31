@@ -44,7 +44,7 @@ Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin lö
 Ensimmäiseksi ohjelmaksi valikoitui VLC media player. <br>
 $ sudo apt install vlc. Haluanko jatkaa? Yes.<br>
 Ohjelma asennettu. Avataan komennolla vlc source.<br>
-Ihan perus ohjelma videoiden katseluun.
+Ihan perus ohjelma videoiden katseluun.<br>
 <br>
 ![Description](vlc.png)
 <br>
@@ -61,7 +61,7 @@ Nopealla vilkaisulla näytti blue screeniltä, mutta eipä kaatunutkaan.<br>
 <br>
 Testasin Googlaamatta komentoa millä lähtisi ohjelma päälle ja näköjään wireshark riitti siihen.<br>
 <br>
-Kolmas ohjelma olisi tmux. Sillä voi jakaa terminaalin useampaan ikkunaan. <br>
+Kolmas ohjelma olisi <br>
 
 ## Tärkeimmät hakemistot
 

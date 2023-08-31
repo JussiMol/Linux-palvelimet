@@ -23,4 +23,8 @@ Huom. Asensin jo oppitunnilla micron niin terminaalin tuloste saattaa näyttää
 Myös ennen ohjelman asennusta terminaali kysyy. Do you want to continue [y/n] kirjoita Y ja enter. <br>
 <br>
 ![Description](micro.png)
+<br>
+Kuvasta näkee ettei tässä tapauksessa tapahtunut mitään, ei asennusta, ei päivitystä.<br>
+Homma valmis.<br>
+## Järjestelmätiedot
 

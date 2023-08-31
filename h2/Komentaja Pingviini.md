@@ -27,4 +27,24 @@ Myös ennen ohjelman asennusta terminaali kysyy. Do you want to continue [y/n] k
 Kuvasta näkee ettei tässä tapauksessa tapahtunut mitään, ei asennusta, ei päivitystä.<br>
 Homma valmis.<br>
 ## Järjestelmätiedot
+Aluksi piti asentaa lshw (list hardware) työkalu. sudo apt install lshw. <br>
+Komennolla $ sudo lshw - short -sanitize saadaan näkyville seuraavat tiedot.<br>
+<br>
+![Description](rauta.png)
+<br>
+Listasta ensimmäisenä etsin punaisella viivalla merkityt. <br>
+Keskusmuisti 4 gigatavua. Aivan kuten asennuksessa määriteltiin.<br>
+Prosessori on sama kuin host koneessa. <br>
+Kovalevytila. Se on jostain syystä 21 gigatavua. Ei mitään hajua miksi. Asennuksessa määriteltiin 20GB.<br>
+Ilmeisesti 20GB + käyttöjärjestelmän viemä tila? <br>
+Display SVGA? Jotain Virtualboxin taikoja. Ymmärtäisin jos olisi HDMI. <br>
+Mikäli perehtyisi Virtualboxin sielunelämään enemmän voisi ymmärtää mitä kaikkea se emuloi ja miten.<br>
+Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin löytyvän. <br>
+## Kolme ohjelmaa
+Ensimmäiseksi ohjelmaksi valikoitui VLC media player. <br>
+$ sudo apt install vlc. Haluanko jatkaa? Yes.
+Ohjelma asennettu. Avataan komennolla vlc source.
+![Description](vlc.png)
+
+## Tärkeimmät hakemistot
 

@@ -50,10 +50,18 @@ Ihan perus ohjelma videoiden katseluun.
 <br>
 Toinen ohjelma olisi sitten Wireshark Network Analyzer.<br>
 Tällä voidaan analysoida verkkoliikennettä.<br>
+$ sudo apt install wireshark <br>
 Asentaessa kysyy voiko muutkin kuin pääkäyttäjät tallentaa verkkoliikennettä. Ei kyllä anneta siihen oikeuksia. <br>
 <br>
 ![Description](wireshark.png)
 <br>
+Nopealla vilkaisulla näytti blue screeniltä, mutta eipä kaatunutkaan.<br>
+<br>
 ![Description](wireshark1.png)
+<br>
+Testasin Googlaamatta komentoa millä lähtisi ohjelma päälle ja näköjään wireshark riitti siihen.<br>
+<br>
+Kolmas ohjelma olisi tmux. Sillä voi jakaa terminaalin useampaan ikkunaan. <br>
+
 ## Tärkeimmät hakemistot
 

@@ -107,6 +107,6 @@ Ja sen alla onnistunut kirjautuminen. <br>
 Tero Karvinen <br>
 https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited <br>
 TecMint <br>
-https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/
+https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/ <br>
 Ookla <br>
 https://www.speedtest.net/apps/cli

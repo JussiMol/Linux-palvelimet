@@ -90,4 +90,12 @@ Komento hakee tiedostosta tarkkaa merkkijonoa "hello" tiedostosta kala.txt ja pr
 <br>
 ![Description](grepW.png)
 <br>
+## Putki
+Putkella voidaan yhdistää monta komentoa yhdelle riville. <br>
+$ ls | grep .txt <br>
+Komento listaa kansiosta kaikki tekstitiedostot. <br>
+<br>
+![Description](LS.png)
+<br>
+
 

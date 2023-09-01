@@ -41,14 +41,18 @@ Display SVGA? Jotain Virtualboxin taikoja. Ymmärtäisin jos olisi HDMI. <br>
 Mikäli perehtyisi Virtualboxin sielunelämään enemmän voisi ymmärtää mitä kaikkea se emuloi ja miten.<br>
 Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin löytyvän. <br>
 ## Kolme ohjelmaa
-Ensimmäiseksi ohjelmaksi valikoitui VLC media player. <br>
-$ sudo apt install vlc. Haluanko jatkaa? Yes.<br>
-Ohjelma asennettu. Avautuu komennolla vlc tai vlc source mikäli on joku media mitä ajaa ohjelmassa.<br>
-Ihan perus ohjelma videoiden katseluun.<br>
+Eka ohjelma - speedtest teminaaliin. <br>
+curl komennolla suoritetaan bash skripti joka hakee nettisivulta speedtestin paketin paketinhallintajärjestelmään. <br>
+$ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash <br>
+$ sudo apt-get install speedtest <br>
+Ohjelma asennettu tuttuun tapaan <br>
 <br>
-![Description](vlc.png)
+![Description](speedtest.png)
 <br>
-Toinen ohjelma olisi sitten Wireshark Network Analyzer.<br>
+Valokuitu käy ja kukkuu. ( ͡° ͜ʖ ͡°)<br>
+
+<br>
+Kolmantena halusin kokeilla jotain muuta kuin terminaalissa toimivaa ohjelmaa. Latasin siis Wireshark Network Analyzer.<br>
 Tällä voidaan analysoida verkkoliikennettä.<br>
 $ sudo apt install wireshark <br>
 Asentaessa kysyy voiko muutkin kuin pääkäyttäjät tallentaa verkkoliikennettä. Ei kyllä anneta siihen oikeuksia. <br>
@@ -61,14 +65,6 @@ Nopealla vilkaisulla näytti blue screeniltä, mutta eipä kaatunutkaan.<br>
 <br>
 Testasin Googlaamatta komentoa millä lähtisi ohjelma päälle ja näköjään wireshark riitti siihen.<br>
 <br>
-Kolmas ohjelma terminaalissa toimiva speedtest.<br>
-curl komennolla suoritetaan skripti joka hakee nettisivulta speedtestin paketin paketinhallintajärjestelmään. <br>
-$ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash <br>
-$ sudo apt-get install speedtest <br>
-Ohjelma asennettu tuttuun tapaan <br>
-<br>
-![Description](speedtest.png)
-<br>
-Valokuitu käy ja kukkuu. ( ͡° ͜ʖ ͡°) <br>
+
 ## Tärkeimmät hakemistot
 

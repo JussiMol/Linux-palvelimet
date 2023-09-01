@@ -44,7 +44,7 @@ Hiiri, näppäimistö ja kuulokkeet toimivat ok. Ne näyttävät listastakin lö
 Eka ohjelma - speedtest teminaaliin. <br>
 curl komennolla suoritetaan bash skripti joka hakee nettisivulta speedtestin paketin paketinhallintajärjestelmään. <br>
 $ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash <br>
-$ sudo apt-get install speedtest <br>
+$ sudo apt install speedtest <br>
 Ohjelma asennettu tuttuun tapaan <br>
 <br>
 ![Description](speedtest.png)

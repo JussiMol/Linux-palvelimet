@@ -102,3 +102,11 @@ $ sudo journalctl -f saadaan lokitiedot näkyviin. <br>
 Kirjoitin väärän salasanan sudolle 3 kertaa ja siitä merkintä punaisella. <br>
 Ja sen alla onnistunut kirjautuminen. <br>
 ![Description](tukki.png)
+<br>
+## Lähteet
+Tero Karvinen <br>
+https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited <br>
+TecMint <br>
+https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/
+Ookla <br>
+https://www.speedtest.net/apps/cli

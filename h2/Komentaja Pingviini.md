@@ -97,5 +97,8 @@ Komento listaa kansiosta kaikki tekstitiedostot. <br>
 <br>
 ![Description](LS.png)
 <br>
-
-
+## Tukki
+$ sudo journalctl -f saadaan lokitiedot näkyviin. <br>
+Kirjoitin väärän salasanan sudolle 3 kertaa ja siitä merkintä punaisella. <br>
+Ja sen alla onnistunut kirjautuminen. <br>
+![Description](tukki.png)

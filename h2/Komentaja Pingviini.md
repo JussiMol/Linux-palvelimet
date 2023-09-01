@@ -80,4 +80,14 @@ Testasin Googlaamatta komentoa millä lähtisi ohjelma päälle ja näköjään 
 (Tero Karvinen, Command Line Basics Revisited)
 
 ## Grep
+1. grep -c "merkkijono" (tiedosto) grep -c "hello" kala.txt <br>
+Komento laskee merkkijonojen määrän tiedostossa kala.txt <br>
+<br>
+![Description](hello.png)
+<br>
+2. grep -w "merkkijono" (tiedosto) grep -w "hello" kala.txt<br>
+Komento hakee tiedostosta tarkkaa merkkijonoa "hello" tiedostosta kala.txt ja printtaa rivit.<br>
+<br>
+![Description](grepW.png)
+<br>
 

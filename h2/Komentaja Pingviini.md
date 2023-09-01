@@ -51,7 +51,7 @@ Ohjelma asennettu tuttuun tapaan <br>
 <br>
 Valokuitu käy ja kukkuu. ( ͡° ͜ʖ ͡°)<br>
 Toinen ohjelma - tldr. Manuaalia selkeyttävä ohjelma.<br>
-$ sudo apt-get install tldr <br>
+$ sudo apt install tldr <br>
 Ohjelma toimii esim. tldr ls <br>
 Tekstit on värikoodattu. Vihreä selite ja itse komento on oranssilla.<br>
 <br>

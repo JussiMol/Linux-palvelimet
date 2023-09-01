@@ -72,4 +72,10 @@ Testasin Googlaamatta komentoa millä lähtisi ohjelma päälle ja näköjään 
 <br>
 
 ## Tärkeimmät hakemistot
+/ juurihakemisto. Kaiken yläpuolella.<br>
+/home. Sisältää kaikki kotihakemistot käyttäjille.<br>
+/home/(nimi). käyttäjän kotihakemisto. Tänne käyttäjä voi pelkästään tallentaa tietoja.<br>
+/media. Siirrettävän median kansio.<br>
+/etc. Sisältää järjestelmän asetuksiin liittyviä tekstitiedostoja. <br>
+
 

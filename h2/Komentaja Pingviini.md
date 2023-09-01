@@ -27,7 +27,7 @@ Myös ennen ohjelman asennusta terminaali kysyy. Do you want to continue [y/n] k
 Kuvasta näkee ettei tässä tapauksessa tapahtunut mitään, ei asennusta, ei päivitystä.<br>
 Homma valmis.<br>
 ## Järjestelmätiedot
-Aluksi piti asentaa lshw (list hardware) työkalu. sudo apt install lshw. <br>
+Aluksi piti asentaa lshw (list hardware) työkalu. $ sudo apt install lshw. <br>
 Komennolla $ sudo lshw - short -sanitize saadaan näkyville seuraavat tiedot.<br>
 <br>
 ![Description](rauta.png)
@@ -50,7 +50,12 @@ Ohjelma asennettu tuttuun tapaan <br>
 ![Description](speedtest.png)
 <br>
 Valokuitu käy ja kukkuu. ( ͡° ͜ʖ ͡°)<br>
-
+Toinen ohjelma - tldr. Manuaalia selkeyttävä ohjelma.<br>
+$ sudo apt-get install tldr <br>
+Ohjelma toimii esim. tldr ls <br>
+Tekstit on värikoodattu. Vihreä selite ja itse komento on oranssilla.<br>
+<br>
+![Description](tldr.png)
 <br>
 Kolmantena halusin kokeilla jotain muuta kuin terminaalissa toimivaa ohjelmaa. Latasin siis Wireshark Network Analyzer.<br>
 Tällä voidaan analysoida verkkoliikennettä.<br>

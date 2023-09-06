@@ -89,7 +89,10 @@ Pelkkä curl komento hakee annetun url-osoitteeseen liittyvän sivun sisällön 
 <br>
 ![Description](curl.png)<br>
 <br>
-curl -I komento hakee 
+curl -I komento tekee sivustolle head pyynnön joka tulostaa otsikkotiedot, mutta ei itse sivun sisältöä.  <br>
+<br>
+![Description](curl1.png)<br>
+<br>
 
 
 https://httpd.apache.org/docs/2.4/logs.html

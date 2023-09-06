@@ -83,7 +83,13 @@ Käytännössä tämä komento antaa käyttäjille, ryhmille ja muille suorituso
 <br>
 ![Description](omasivu.png)<br>
 <br>
-
+Näyttäisi toimivan. <br>
+## f) Curl komennot
+Pelkkä curl komento hakee annetun url-osoitteeseen liittyvän sivun sisällön ja tulostaa sen komentoriville.<br>
+<br>
+![Description](curl.png)<br>
+<br>
+curl -I komento hakee 
 
 
 https://httpd.apache.org/docs/2.4/logs.html

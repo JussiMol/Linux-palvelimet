@@ -13,6 +13,7 @@ $ whoami komennolla voit selvittää käyttäjänimesi. <br>
 http://localhost/~(nimi)/ <br>
 Jos näät kotisivun olet asentanut onnistuneesti palvelimen kotisivuille. <br>
 <br>
+(Karvinen, Install Apache Web Server on Ubuntu)<br>
 ## a) Apachen asennus
 Apache löytyy suoraan paketinhallintajärjestelmästä eli suoritetaan komento.<br>
 $ sudo apt-get install apache2 <br>
@@ -30,3 +31,27 @@ Ja terminaalissa $ sudo systemctl status apache2 näyttäisi seuraavaa. <br>
 ![Description](apache2.png)<br>
 ### b) Lokitiedot
 ![Description](logi.png)<br>
+Analysoidaan alin rivi eli uusin kotisivua koskeva pyyntö.
+127.0.0.1 - IP-osoite on koneen mistä pyyntö hakea nettisivu on tullut. Kyseessä on isäntäkone, eli sama kone millä palvelin pyörii.<br>
+Tarkistin koneen ip-osoitteen komennolla $ ip addr <br>
+"- -" kohdassa olisi käyttäjätunnus ja/tai käyttäjäryhmä. Tiedon puuttuessa se on korvattu viivalla. <br>
+Päivämäärä, aika ja aikavyöhyke. <br>
+GET = HTTP-metodi verkkosivujen hakemiseen.<br>
+HTTP/1.1 on pyynnössä käytetty protokollan versio.<br>
+Seuraava tieto on arvokas. Luku 200 on vastauskoodi. Se tarkoittaa, että pyyntö onnistui ja palvelin lähetti pyydetyt tiedot takaisin.<br>
+3380 = Palautettujen tavujen määrä kyselyn tekijälle.<br>
+Rivistä loput kertoo kyselyn tekijän verkkoselaimen ja käyttöjärjestelmän tietoja/versioita.<br>
+Kuvassa voidaan myös huomata esim toiseksi ylimmällä rivillä epäonnistunut yritys pyytää verkkosivu.<br>
+Vastauskoodi 404. Epäonnistunut yritys ja palautettujen tavujen määrä paljon pienempi.<br>
+## c) Sivun vaihtaminen
+
+
+
+
+
+
+
+
+
+
+https://httpd.apache.org/docs/2.4/logs.html

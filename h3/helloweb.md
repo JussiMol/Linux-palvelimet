@@ -44,7 +44,7 @@ Rivistä loput kertoo kyselyn tekijän verkkoselaimen ja käyttöjärjestelmän 
 Kuvassa voidaan myös huomata esim toiseksi ylimmällä rivillä epäonnistunut yritys pyytää verkkosivu.<br>
 Vastauskoodi 404. Epäonnistunut yritys ja palautettujen tavujen määrä paljon pienempi.<br>
 <br>
-(Apache, Log Files)
+(Apache Software Foundation, Log Files)
 <br>
 
 ## c) Default sivun vaihtaminen

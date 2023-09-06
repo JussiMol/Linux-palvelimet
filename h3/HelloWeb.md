@@ -101,7 +101,8 @@ Päivämäärä ok. Kellonaika näyttää GMT eikä UTC+3. <br>
 <br>
 Palvelin Apache/versio 2.4.57 ja toimii (Debian) käyttöjärjestelmällä. <br>
 <br>
-Viimeksi muokattu. Tämä kohta kertoo milloin pyydettyä tiedostoa on muokattu palvelimella edellisen kerran. Tästä voi päätellä paljonko aikaa on käytetty suurin piirtein tehtävien tekemiseen. Reilut pari tuntia. <br>
+Viimeksi muokattu. Tämä kohta kertoo milloin pyydettyä tiedostoa on muokattu palvelimella edellisen kerran.<br> 
+Tästä voi päätellä paljonko aikaa on käytetty suurin piirtein tehtävien tekemiseen. Reilut pari tuntia. <br>
 <br>
 Etag on sivuston yksilöllinen tunniste.<br>
 <br>

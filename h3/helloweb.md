@@ -16,4 +16,16 @@ Jos näät kotisivun olet asentanut onnistuneesti palvelimen kotisivuille. <br>
 ## a) Apachen asennus
 Apache löytyy suoraan paketinhallintajärjestelmästä eli suoritetaan komento.<br>
 $ sudo apt-get install apache2 <br>
-Paketinhallinta tekee työnsä. Nyt voidaan kokeilla onko se päällä. <br>
+Paketinhallinta tekee työnsä. Nyt voidaan kokeilla onko palvelin päällä. <br>
+Palvelimen tilan voi tarkastaa joko terminaalilla tai verkkoselaimella.
+http://localhost url-palkkiin <br>
+Terminaalilla $ sudo systemctl status apache2 <br>
+<br>
+![Description](apache.png)
+<br>
+Palvelin on päällä. <br>
+Jos palvelin ei olisi päällä. Selain sanoisi Unable to connect. <br>
+Ja terminaalissa $ sudo systemctl status apache2 näyttäisi seuraavaa. <br>
+<br>
+![Description](apache2.png)
+<br>

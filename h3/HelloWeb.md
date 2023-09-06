@@ -93,6 +93,28 @@ curl -I komento tekee sivustolle head pyynnön joka tulostaa otsikkotiedot, mutt
 <br>
 ![Description](curl1.png)<br>
 <br>
+Mitä komento sitten kertoo meille?. <br>
+<br>
+HTTP/1.1 200 OK. Protokolla, vastauskoodi 200 OK. Pyyntö on siis onnistunut ja palvelin vastaa meille. <br>
+<br>
+Päivämäärä ok. Kellonaika näyttää GMT eikä UTC+3. <br>
+<br>
+Palvelin Apache/versio 2.4.57 ja toimii (Debian) käyttöjärjestelmällä. <br>
+<br>
+Viimeksi muokattu. Tämä kohta kertoo milloin pyydettyä tiedostoa on muokattu palvelimella edellisen kerran. Tästä voi päätellä paljonko aikaa on käytetty suurin piirtein tehtävien tekemiseen. Reilut pari tuntia. <br>
+<br>
+Etag on sivuston yksilöllinen tunniste.<br>
+<br>
+Accept-ranges. Palvelin hyväksyy pyyntöjä tavuina. <br>
+<br>
+Sisällön pituus. 149 tavua <br>
+<br>
+Vary: Accept-Encoding. Liittyy sisällön palvelimen puolella tapahtuvaan kompressointiin ja purkamiseen. <br>
+<br>
+Sisällön tyyppi. tekstiä sisältävä html sivu. <br>
+<br>
+
+
 
 
 https://httpd.apache.org/docs/2.4/logs.html

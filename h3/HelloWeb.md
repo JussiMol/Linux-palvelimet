@@ -70,10 +70,17 @@ Sivu näyttää nyt tältä. <br>
 ## d) Käyttäjien kotisivut
 Komennolla $ sudo a2enmod userdir. Muokataan Apachen konfiguraatiota ja annetaan käyttäjille oikeudet luoda kotisivuja.<br>
 Tehdään kotihakemistoon /home/jussi kansio public_html komennolla $ mkdir public_html <br>
-Tehdään html tiedosto microlla. <br>
-![Description](oma.png)<br>
+Tein html tiedoston microlla ja sisältö näyttää seuraavalta. <br>
 <br>
-Katsotaan miltä se näyttää selaimessa <br>
+![Description](oma.png) <br>
+Katsotaan miltä se näyttää selaimessa. <br>
+<br>
+![Description](deny.png) <br>
+Eipä toiminut.  <br>
+Pitää ajaa komento joka muuttaa tiedostojen ja hakemistojen käyttöoikeuksia.<br>
+$ sudo chmod ugo+x $HOME $HOME/public_html/ <br>
+Käytännössä tämä komento antaa käyttäjille, ryhmille ja muille suoritusoikeuden kotihakemistoosi /home/jussi ja sen alahakemistoon public_html.<br>
+<br>
 ![Description](omasivu.png)<br>
 <br>
 

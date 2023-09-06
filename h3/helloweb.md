@@ -43,6 +43,10 @@ Seuraava tieto on arvokas. Luku 200 on vastauskoodi. Se tarkoittaa, että pyynt�
 Rivistä loput kertoo kyselyn tekijän verkkoselaimen ja käyttöjärjestelmän tietoja/versioita.<br>
 Kuvassa voidaan myös huomata esim toiseksi ylimmällä rivillä epäonnistunut yritys pyytää verkkosivu.<br>
 Vastauskoodi 404. Epäonnistunut yritys ja palautettujen tavujen määrä paljon pienempi.<br>
+<br>
+(Apache, Log Files)
+<br>
+
 ## c) Default sivun vaihtaminen
 Tähän toimenpiteeseen löytyy ohje suoraan Apachen esimerkkisivulta.<br>
 ![Description](ohje.png)<br>

@@ -31,7 +31,7 @@ Ja terminaalissa $ sudo systemctl status apache2 näyttäisi seuraavaa. <br>
 ![Description](apache2.png)<br>
 ### b) Lokitiedot
 ![Description](logi.png)<br>
-Analysoidaan alin rivi eli uusin kotisivua koskeva pyyntö.
+Analysoidaan alin rivi eli uusin kotisivua koskeva pyyntö.<br>
 127.0.0.1 - IP-osoite on koneen mistä pyyntö hakea nettisivu on tullut. Kyseessä on isäntäkone, eli sama kone millä palvelin pyörii.<br>
 Tarkistin koneen ip-osoitteen komennolla $ ip addr <br>
 "- -" kohdassa olisi käyttäjätunnus ja/tai käyttäjäryhmä. Tiedon puuttuessa se on korvattu viivalla. <br>

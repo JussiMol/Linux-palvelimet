@@ -21,11 +21,12 @@ Palvelimen tilan voi tarkastaa joko terminaalilla tai verkkoselaimella.
 http://localhost url-palkkiin <br>
 Terminaalilla $ sudo systemctl status apache2 <br>
 <br>
-![Description](apache.png)
-<br>
+![Description](apache.png) <br>
+
 Palvelin on päällä. <br>
 Jos palvelin ei olisi päällä. Selain sanoisi Unable to connect. <br>
 Ja terminaalissa $ sudo systemctl status apache2 näyttäisi seuraavaa. <br>
-<br>
-![Description](apache2.png)
-<br>
+
+![Description](apache2.png)<br>
+### b) Lokitiedot
+![Description](logi.png)<br>

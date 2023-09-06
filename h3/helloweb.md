@@ -33,15 +33,25 @@ Ja terminaalissa $ sudo systemctl status apache2 näyttäisi seuraavaa. <br>
 ![Description](logi.png)<br>
 Analysoidaan alin rivi eli uusin kotisivua koskeva pyyntö.<br>
 127.0.0.1 - IP-osoite on koneen mistä pyyntö hakea nettisivu on tullut. Kyseessä on isäntäkone, eli sama kone millä palvelin pyörii.<br>
-Tarkistin koneen ip-osoitteen komennolla $ ip addr <br>
-"- -" kohdassa olisi käyttäjätunnus ja/tai käyttäjäryhmä. Tiedon puuttuessa se on korvattu viivalla. <br>
+<br>
+Tarkistin koneen ip-osoitteen komennolla $ ip addr ja se täsmää 127.0.0.1 kanssa. <br>
+<br>
+"- -" kohdassa olisi käyttäjätunnus ja/tai käyttäjäryhmä. Tiedon puuttuessa se on korvattu viivalla. Luultavasti LAN-verkossa nimet olisi näkyvillä? <br>
+<br>
 Päivämäärä, aika ja aikavyöhyke. <br>
+<br>
 GET = HTTP-metodi verkkosivujen hakemiseen.<br>
+<br>
 HTTP/1.1 on pyynnössä käytetty protokollan versio.<br>
+<br>
 Seuraava tieto on arvokas. Luku 200 on vastauskoodi. Se tarkoittaa, että pyyntö onnistui ja palvelin lähetti pyydetyt tiedot takaisin.<br>
+<br>
 3380 = Palautettujen tavujen määrä kyselyn tekijälle.<br>
+<br>
 Rivistä loput kertoo kyselyn tekijän verkkoselaimen ja käyttöjärjestelmän tietoja/versioita.<br>
+<br>
 Kuvassa voidaan myös huomata esim toiseksi ylimmällä rivillä epäonnistunut yritys pyytää verkkosivu.<br>
+<br>
 Vastauskoodi 404. Epäonnistunut yritys ja palautettujen tavujen määrä paljon pienempi.<br>
 <br>
 (Apache Software Foundation, Log Files)
@@ -57,12 +67,15 @@ Sivu näyttää nyt tältä. <br>
 ![Description](index.png)<br>
 <br>
 
-
-
-
-
-
-
+## d) Käyttäjien kotisivut
+Komennolla $ sudo a2enmod userdir. Muokataan Apachen konfiguraatiota ja annetaan käyttäjille oikeudet luoda kotisivuja.<br>
+Tehdään kotihakemistoon /home/jussi kansio public_html komennolla $ mkdir public_html <br>
+Tehdään html tiedosto microlla. <br>
+![Description](oma.png)<br>
+<br>
+Katsotaan miltä se näyttää selaimessa <br>
+![Description](omasivu.png)<br>
+<br>
 
 
 

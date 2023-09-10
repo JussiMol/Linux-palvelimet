@@ -119,10 +119,12 @@ Tarkistin vielä minkälainen jälki jää access logiin head kyselystä. <br>
 ### 127.0.0.1 - - [06/Sep/2023:19:26:34 +0300] "HEAD /~jussi/ HTTP/1.1" 200 251 "-" "curl/7.88.1" <br>
 <br>
 GET vaihtui HEAD kun ei haettukkaan itse sivustoa vaan pelkkää headeria. Firefoxista ei puhettakaan vaan tilalle tullut curl.<br>
-
+(Mozilla, HTTP Headers)
 ### Lähteet
 Tero Karvinen<br>
 https://terokarvinen.com/2008/05/02/install-apache-web-server-on-ubuntu-4/<br>
 https://terokarvinen.com/2012/short-html5-page/<br>
 Apache Software Foundation<br>
 https://httpd.apache.org/docs/2.4/logs.html<br>
+Mozilla<br>
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers<br>

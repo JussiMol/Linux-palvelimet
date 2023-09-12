@@ -122,7 +122,7 @@ Tarkistin vielä minkälainen jälki jää access logiin head kyselystä. <br>
 <br>
 GET vaihtui HEAD kun ei haettukkaan itse sivustoa vaan pelkkää headeria. Firefoxista ei puhettakaan vaan tilalle tullut curl.<br>
 (Mozilla, HTTP Headers)<br>
-Lähteet
+Lähteet<br>
 Tero Karvinen<br>
 https://terokarvinen.com/2008/05/02/install-apache-web-server-on-ubuntu-4/<br>
 https://terokarvinen.com/2012/short-html5-page/<br>

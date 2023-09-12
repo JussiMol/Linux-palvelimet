@@ -87,7 +87,7 @@ Käytännössä tämä komento antaa käyttäjille, ryhmille ja muille suorituso
 <br>
 Näyttäisi toimivan. <br>
 ## f) Curl komennot
-Pelkkä curl komento hakee annetun url-osoitteeseen liittyvän sivun sisällön ja tulostaa sen komentoriville.<br>
+Pelkkä curl komento hakee annetun url-osoitteeseen liittyvän sivun lähdekoodin ja tulostaa sen komentoriville.<br>
 <br>
 ![Description](curl.png)<br>
 <br>

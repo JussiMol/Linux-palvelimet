@@ -63,7 +63,7 @@ Tähän toimenpiteeseen löytyy ohje suoraan Apachen esimerkkisivulta.<br>
 index.html tiedoston voi vaihtaa kokonaan itse tekemään html tiedostoon.<br>
 Itse teen muunnoksen default sivuun. <br>
 Mennään terminaalissa $ cd /var/www/html <br>
-$ micro index.html
+$ micro index.html<br>
 Korvaan sisältöä omalla ja tallennetaan sudo oikeuksilla. <br>
 Sivu näyttää nyt tältä. <br>
 ![Description](index.png)<br>

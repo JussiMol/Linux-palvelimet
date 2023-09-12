@@ -60,6 +60,8 @@ Vastauskoodi 404. Epäonnistunut yritys ja palautettujen tavujen määrä paljon
 ## c) Default sivun vaihtaminen
 Tähän toimenpiteeseen löytyy ohje suoraan Apachen esimerkkisivulta.<br>
 ![Description](ohje.png)<br>
+index.html tiedoston voi vaihtaa kokonaan itse tekemään html tiedostoon.<br>
+Itse teen muunnoksen default sivuun. <br>
 Mennään terminaalissa $ cd /var/www/html <br>
 $ micro index.html
 Korvaan sisältöä omalla ja tallennetaan sudo oikeuksilla. <br>

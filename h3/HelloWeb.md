@@ -62,7 +62,7 @@ Tähän toimenpiteeseen löytyy ohje suoraan Apachen esimerkkisivulta.<br>
 ![Description](ohje.png)<br>
 Mennään terminaalissa $ cd /var/www/html <br>
 $ micro index.html
-Korvataan sisältö omalla ja tallennetaan sudo oikeuksilla. <br>
+Korvaan sisältöä omalla ja tallennetaan sudo oikeuksilla. <br>
 Sivu näyttää nyt tältä. <br>
 ![Description](index.png)<br>
 <br>

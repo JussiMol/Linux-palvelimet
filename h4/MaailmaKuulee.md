@@ -12,6 +12,7 @@ Lukitaan root käyttäjä. $ sudo usermod --lock root <br>
 Päivitä paketinhallinta<br>
 Asenna esim. apache2 ja tee sinne tarvittavat toimenpiteet (pistä nettisivusi toimimaan)<br>
 Avaa palomuuriin portti 80/tcp.<br>
+(Karvinen, First Steps on a New Virtual Private Server)
 ## a) Oma virtuaalipalvelin
 Otan palvelun linodesta. <br>
 Distribution - Debian 12<br>
@@ -25,7 +26,7 @@ Liian hyvä salasana kun ei ekalla muistanut oikein. Sisällä ollaan <br>
 <br>
 kuva <br>
 <br>
-Aloitetaas sitten toimenpiteet.<br>
+## b) Alkutoimenpiteet
 Päivitetään paketinhallinta, palomuurille porttien avaukset, uusi käyttäjä ja käyttäjälle sudo oikeudet.<br>
 Aloitetaan käyttäjästä. ($ sudo adduser jussi) ja terminaali kysyy tiedot ja kirjoittaa ne levylle. <br>
 Kokeillaan toisella terminaalilla että käyttäjä on luotu ja että pääsen sillä sisään koneelle. <br>
@@ -43,4 +44,19 @@ $ sudo ufw allow 22/tcp <br>
 Terminaali sanoo "rules updated" ja "rules updated (v6)" Säännöt päivitetty IPv4 ja v6 osotteille.<br>
 $ sudo ufw enable <br>
 En tee vielä aukkoa portti 80/tcp ennen kun olen tehnyt Apachella pyörivän sivun joka näytetään ulkomaailmaan. <br>
-Eli apachen lataus ja sivun vaihto. <br>
+### c) Palvelin ja sivun vaihto
+Apachen ja micro tekstieditorin lataus. <br>
+$ sudo apt-get install apache2<br>
+$ sudo apt-get install micro <br>
+Kun molemmat ohjelmat on asentuneet. -> $ cd var/www/html <br>
+$ ls ja katsotaan että index.html on kansiossa. Onhan se. <br>
+$ micro index.html ja editorilla muokataan sisältö.<br>
+Katsotaan miltä se näyttää terminaalissa. <br>
+<br>
+kuva <br>
+<br>
+Sitten avataan portti 80/tcp<br>
+$sudo ufw allow 80/tcp ja rules updated ilmoitukset tulevat.<br>
+Katsotaas sitten onko nettisivu internetissä <br>
+<br>
+<br>

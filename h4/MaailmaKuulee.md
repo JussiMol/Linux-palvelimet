@@ -24,7 +24,7 @@ Create Linode <br>
 Menee hetken aikaa kun palvelu pistää koneen pyörimään ja kokeillaan ottaa ssh yhteys omalta virtuaalikoneelta. <br>
 Liian hyvä salasana kun ei ekalla muistanut oikein. Sisällä ollaan <br>
 <br>
-![Description](ssh_login.png) <br>
+![Description](sshlogin.png) <br>
 <br>
 ## b) Alkutoimenpiteet
 Päivitetään paketinhallinta, palomuurille porttien avaukset, uusi käyttäjä ja käyttäjälle sudo oikeudet.<br>
@@ -38,6 +38,7 @@ Millä selvitin asian? $ man ufw ja vastaus oli "No manual entry for ufw". Asent
 Asennuksen jälkeen katsotaan mitä asentamisen jälkeinen tilanne on palomuurille. <br>
 $ sudo systemctl status ufw <br>
 <br>
+![Description](.png)
 <br>
 Tehdääs palomuuriin aukot.<br>
 $ sudo ufw allow 22/tcp <br>

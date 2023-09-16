@@ -24,7 +24,7 @@ Create Linode <br>
 Menee hetken aikaa kun palvelu pistää koneen pyörimään ja kokeillaan ottaa ssh yhteys omalta virtuaalikoneelta. <br>
 Liian hyvä salasana kun ei ekalla muistanut oikein. Sisällä ollaan <br>
 <br>
-kuva <br>
+![Description](ssh_login.png) <br>
 <br>
 ## b) Alkutoimenpiteet
 Päivitetään paketinhallinta, palomuurille porttien avaukset, uusi käyttäjä ja käyttäjälle sudo oikeudet.<br>

@@ -71,6 +71,12 @@ Jatkan työskentelyä omalla käyttäjällä eli kirjaudun root käyttäjältä 
 <br>
 <br>
 Seuraavaksi lukitsen root käyttäjän ja kokeilen pääseekö sille kirjautumaan. <br>
+$ sudoedit /etc/ssh/sshd_config muutetaan yes tilalle no ja root kirjautuminen ei onnistu enää. <br>
+<br>
+<br>
+![Description](rootlogin.png)
+<br>
+<br>
 $ sudo usermod --lock root lukitsee root käyttäjän. Testataan pääseekö sille kirjautumaan. <br>
 <br>
 <br>

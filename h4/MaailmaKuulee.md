@@ -83,6 +83,7 @@ $ sudo usermod --lock root lukitsee root käyttäjän. Testataan pääseekö sil
 ![Description](Rootlukossa.png)
 <br>
 <br>
+$ $ sudo service ssh restart otetaan uudet määritykset käyttöön. <br>
 Ennen kirjautumista mietin antaako terminaali ilmoitusta että onko käyttäjä lukossa. Antoi vasta oikean salasanan jälkeen. <br> 
 ### c) Palvelin ja sivun vaihto
 Apachen ja micro tekstieditorin lataus. <br>

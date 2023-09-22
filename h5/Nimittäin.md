@@ -7,21 +7,21 @@
 - Tiedostoon pitää laittaa käytetty portti, documentroot (tiedoston sijainti) ja oikeudet hakemiston käyttöön.
 - $ sudo a2ensite (nimi).conf otetaan virtual host käyttöön ja komennolla $ sudo a2dissite 000-default.conf default sivu pois käytöstä.
 - Näiden jälkeen uudelleen käynnistys apachelle.
-- Uusi index.html sivu täytyy olla samassa sijainnissa minkä kirjoitit host tiedostoon.
-(Karvinen, New Default Website with Apache2 – Show your homepage at top of example.com, no tilde)
+- Uusi index.html sivu täytyy olla samassa sijainnissa minkä kirjoitit host tiedostoon.<br>
+(Karvinen, New Default Website with Apache2 – Show your homepage at top of example.com, no tilde)<br>
 ### Virtuaalinen nimipalvelu (Karvinen)
 - Palvelinympäristön asennus
 - Uusi sivusto nimipalvelulla tehdään uusi konfiguraatiotiedosto /etc/apache2/sites-available/ hakemistoon.
 - $ sudo a2ensite (tiedosto) ja uudelleenkäynnistys apache2.
 - Luo kotihakemistoosi index.html tiedosto ja sille sisältö.
 - Hosts tiedostolla voidaan manipuloida paikallisesti sivustojen nimiä.
-- Normaalisti vuokraamme nimen nimipalvelusta.
-(Karvinen, Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address)
+- Normaalisti vuokraamme nimen nimipalvelusta.<br>
+(Karvinen, Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address)<br>
 ### Virtuaalinen nimipalvelu (Apache)
 - Asiakas ilmoittaa palvelimelle mitä sivua haetaan ja palvelin osaa palauttaa header tietojen perusteella oikean sivuston.
 - Pyynnön saapuessa palvelin hakee parhaan/tarkimman parin virtualhost listasta ja palauttaa sen asiakkaalle.
-- Jokainen sivu täytyy olla erillisessä <virtualhost> osiossa ja sen täytyy sisältää hakemistopolku html tiedostoon.
-(Apache, Name-based Virtual Host Support)
+- Jokainen sivu täytyy olla erillisessä <virtualhost> osiossa ja sen täytyy sisältää hakemistopolku html tiedostoon.<br>
+(Apache, Name-based Virtual Host Support)<br>
 ### a) Nimen vuokraus
 
 

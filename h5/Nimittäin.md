@@ -85,7 +85,7 @@ Tämä osio julistetaan nyt parin tunnin väännön jälkeen tappioksi. <br>
 4.$ sudo systemctl restart apache2<br>
 5. Selaimella testaus sivulle. ei näy.<br>
 6.$ sudo a2enmod userdir<br>
-7.apache reload<br>
+7.apache restart<br>
 8. Selaimella testi, ei näy<br>
 Liittyykö ongelma käyttöoikeuksiin? <br>
 #### Muutama tunti taukoa ja kokeillaan vielä viimeiset ideat läpi.

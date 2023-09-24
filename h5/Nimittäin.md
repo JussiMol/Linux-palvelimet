@@ -69,18 +69,32 @@ Käytän Karvisen simppeliä html pohjaa sivulle.<br>
 <br>
 Seuraavaksi mennään /etc/apache2/sites-available ja luodaan sinne justestisivu.com.conf konfiguraatiotiedosto.<br>
 Ajetaan $ sudo a2ensite justestisivu.com ja apachelle reload komennot <br>
-Katsotaan näkyykö selaimessa mitään. <br>
 <br>
 ![Description](ka.png) <br>
 <br>
+Katsotaan näkyykö selaimessa mitään. <br>
 <br>
 ![Description](justes.png) <br>
 <br>
 Vielä ei näy mitään. Luetaas ohjeita ja katsotaan saadaanko korjattua.<br>
-Mitään 
+Tämä osio julistetaan nyt parin tunnin väännön jälkeen tappioksi. <br>
+#### Toimenpiteet
+1.Testisivu hakemisto ja sinne index.html tiedosto <br>
+2./etc/apache2/sites-available sinne justestisivu.com.conf kuvan sisällöllä.<br>
+3.$ sudo a2ensite justestisivu.com<br>
+4.$ sudo systemctl reload apache2<br>
+5. Selaimella testaus sivulle. ei näy.<br>
+6.$ sudo a2enmod userdir<br>
+7.apache reload<br>
+8. Selaimella testi ei näy<br>
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>
 https://terokarvinen.com/2016/02/16/new-default-website-with-apache2-show-your-homepage-at-top-of-example-com-no-tilde/ <br>
 Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address<br>
 https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/<br>
+Short HTML5 page<br>
+https://terokarvinen.com/2012/short-html5-page/<br>
+Apache Foundation<br>
+Name-based Virtual Host Support<br>
+https://httpd.apache.org/docs/2.4/vhosts/name-based.html<br>

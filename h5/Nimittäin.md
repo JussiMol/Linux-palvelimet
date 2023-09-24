@@ -68,7 +68,7 @@ Käytän Karvisen simppeliä html pohjaa sivulle.<br>
 ![Description](yk.png) <br>
 <br>
 Seuraavaksi mennään /etc/apache2/sites-available ja luodaan sinne justestisivu.com.conf konfiguraatiotiedosto.<br>
-Ajetaan $ sudo a2ensite justestisivu.com ja apachelle reload komennot <br>
+Ajetaan $ sudo a2ensite justestisivu.com ja apachelle restart komennot <br>
 <br>
 ![Description](ka.png) <br>
 <br>

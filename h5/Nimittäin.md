@@ -82,7 +82,7 @@ Tämä osio julistetaan nyt parin tunnin väännön jälkeen tappioksi. <br>
 1.Testisivu hakemisto ja sinne index.html tiedosto <br>
 2./etc/apache2/sites-available sinne justestisivu.com.conf kuvan sisällöllä.<br>
 3.$ sudo a2ensite justestisivu.com<br>
-4.$ sudo systemctl reload apache2<br>
+4.$ sudo systemctl restart apache2<br>
 5. Selaimella testaus sivulle. ei näy.<br>
 6.$ sudo a2enmod userdir<br>
 7.apache reload<br>

@@ -104,6 +104,7 @@ No mites kävikään sen jälkeen. <br>
 <br>
 www.justestisivu.com ei ainakaan toimi niin ilmeisesti ei ole haluttu lopputulos.<br>
 Käytössä oleva sivu onnistuttiin vaihtamaan mutta ei toimimaan samanaikaisesti. <br>
+Apachen error logia tutkiessa en huomannut mitään mikä voisi viitata ongelmaan. <br>
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>

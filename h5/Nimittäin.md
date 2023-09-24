@@ -95,10 +95,14 @@ Testataan selaimella, ja ei toimi.<br>
 Lueskelin Teron artikkelia New Default Website with Apache2 ja tajusin mitä en ollut tehnyt.<br>
 Missään kohtaa en ole ajanut $ sudo a2dissite 000-default.conf komentoa. Mikä ottaisi tuon alkuperäisen sivun pois käytöstä.<br>
 Katsoin /etc/apache2/sites-enabled hakemistosta mitkä sivut ovat päällä. Otin default sivun pois käytöstä. <br>
-No mites kävikään sen jälkeen. <br>
 <br>
 ![Description](toimii.png) <br>
 <br>
+No mites kävikään sen jälkeen. <br>
+<br>
+![Description](sivu.png) <br>
+<br>
+Onko se mitä haettiin niin en ole täysin varma. <br>
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>

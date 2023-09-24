@@ -87,6 +87,7 @@ Tämä osio julistetaan nyt parin tunnin väännön jälkeen tappioksi. <br>
 6.$ sudo a2enmod userdir<br>
 7.apache reload<br>
 8. Selaimella testi ei näy<br>
+Liittyykö ongelma käyttöoikeuksiin? <br>
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>

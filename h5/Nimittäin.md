@@ -37,19 +37,47 @@ Testataan näkyykö sivu www.testisivu.wiki osoitteella. Aikaa A recordien mää
 <br>
 Kotisivu toimii nimellä haettaessa.<br>
 ### b) host ja dig
+$ man host<br>
+host - DNS lookup utility <br>
 $ host www.testisivu.wiki ja $ host 139.144.73.75 <br>
 <br>
 ![Description](host.png) <br>
 <br>
 Host komento kertoo mikä on domainin IPv4-osoite ja alempi komento kertoo mikä on palvelimen palveluntarjoaja. <br> 
+$ man dig <br>
+dig - DNS lookup utility<br> 
 <br>
 ![Description](dig.png) <br>
 <br>
-
-
-
-
-
+Tulosteen alussa voidaan olettaa www.testisivu.wiki pyörivän debian käyttöjärjestelmällä.
+Oletan että tässä tulosteessa QUESTION SECTION ja ANSWER SECTION ovat ne tärkeimmät tiedot.<br>
+Kysely lähetetään DNS-palvelimelle. <br>
+Vastaus osiosta voidaan tulkita domainin osoittavan 139.144.73.75 IPv4-osoitteeseen.<br>
+300 on luultavasti Time to live aika sekuntteina = 5 minuuttia.<br>
+Query time: 11 millisekuntia kyselyn vastauksessa kesti tuon ajan.<br>
+Server taitaa viitata DNS-palvelimeen mihin kysely kohdennettiin. <br>
+Päivämäärä UTC ajassa. <br>
+MS SIZE rcvd:63 ilmeisesti DNS-vastauksen koko? <br>
+<br>
+### c) Etusivu uusiksi
+Halutaan kotisivu olevan käyttäjän kotihakemistossa ja muokattavissa vapaasti. <br>
+Tarvitsee siis tehdä Karvisen Name Based Virtual Hosts ohjeiden mukainen konfiguraatio tiedosto ja ottaa se käyttöön.
+Aloitetan tehtävän koti hakemistosta ja aluksi luon testisivu kansion ja sinne index.html tiedoston ja siihen sisällön.<br>
+Käytän Karvisen simppeliä html pohjaa sivulle.<br>
+<br>
+![Description](yk.png) <br>
+<br>
+Seuraavaksi mennään /etc/apache2/sites-available ja luodaan sinne justestisivu.com.conf konfiguraatiotiedosto.<br>
+Ajetaan $ sudo a2ensite justestisivu.com ja apachelle reload komennot <br>
+Katsotaan näkyykö selaimessa mitään. <br>
+<br>
+![Description](ka.png) <br>
+<br>
+<br>
+![Description](justes.png) <br>
+<br>
+Vielä ei näy mitään. Luetaas ohjeita ja katsotaan saadaanko korjattua.<br>
+Mitään 
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>

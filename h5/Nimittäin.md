@@ -103,7 +103,7 @@ No mites kävikään sen jälkeen. <br>
 ![Description](sivu.png) <br>
 <br>
 www.justestisivu.com ei ainakaan toimi niin ilmeisesti ei ole haluttu lopputulos.<br>
-Jotain on onnistuttu tekemään. <br>
+Käytössä oleva sivu onnistuttiin vaihtamaan mutta ei toimimaan samanaikaisesti. <br>
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>

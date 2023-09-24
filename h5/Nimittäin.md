@@ -86,7 +86,7 @@ Tämä osio julistetaan nyt parin tunnin väännön jälkeen tappioksi. <br>
 5. Selaimella testaus sivulle. ei näy.<br>
 6.$ sudo a2enmod userdir<br>
 7.apache reload<br>
-8. Selaimella testi ei näy<br>
+8. Selaimella testi, ei näy<br>
 Liittyykö ongelma käyttöoikeuksiin? <br>
 ### Lähteet
 Tero Karvinen <br>

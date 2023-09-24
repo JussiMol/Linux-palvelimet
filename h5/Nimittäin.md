@@ -88,8 +88,17 @@ Tämä osio julistetaan nyt parin tunnin väännön jälkeen tappioksi. <br>
 7.apache reload<br>
 8. Selaimella testi, ei näy<br>
 Liittyykö ongelma käyttöoikeuksiin? <br>
-Muutama tunti taukoa ja kokeillaan vielä viimeiset ideat läpi. <br>
-Harjoitus kolmosessa käytettiin komentoa $ sudo chmod ugo+x $HOME $HOME/public_html/ muokkaamaan
+#### Muutama tunti taukoa ja kokeillaan vielä viimeiset ideat läpi.
+Harjoitus kolmosessa käytettiin komentoa $ sudo chmod ugo+x $HOME $HOME/public_html/ käyttäjähakemistojen oikeuksien muokaamiseen. <br>
+Kokeillaan sitä $ sudo chmod ugo+x $HOME $HOME/testisivu/ <br>
+Testataan selaimella, ja ei toimi.<br>
+Lueskelin Teron artikkelia New Default Website with Apache2 ja tajusin mitä en ollut tehnyt.<br>
+Missään kohtaa en ole ajanut $ sudo a2dissite 000-default.conf komentoa. Mikä ottaisi tuon alkuperäisen sivun pois käytöstä.<br>
+Katsoin /etc/apache2/sites-enabled hakemistosta mitkä sivut ovat päällä. Otin default sivun pois käytöstä. <br>
+No mites kävikään sen jälkeen. <br>
+<br>
+![Description](toimii.png) <br>
+<br>
 ### Lähteet
 Tero Karvinen <br>
 New Default Website with Apache2 – Show your homepage at top of example.com, no tilde<br>

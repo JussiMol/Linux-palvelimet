@@ -23,25 +23,25 @@
 - Jokainen sivu täytyy olla erillisessä <virtualhost> osiossa ja sen täytyy sisältää hakemistopolku html tiedostoon.<br>
 (Apache, Name-based Virtual Host Support)<br>
 ### a) Nimen vuokraus
-Vuokraan nimen Namecheap.com sivustolta. <br>
+Vuokraan nimen Namecheap.com sivustolta. Auto-renew pois päältä, tätä sivua ei tulla käyttämään pitkään. <br>
 <br>
 ![Description](testisivu.png) <br>
 <br>
-Luodaan A recordeilla yhteys oman virtuaalipalvelimen ip-osoitteeseen.<br>
+Luodaan A recordeilla yhteys oman virtuaalipalvelimen ip-osoitteeseen. TTL 5 minuuttia. Sivuston nimi jää asiakaskoneen muistiin 5 minuutiksi.<br>
 <br>
 ![Description](dns.png) <br>
 <br>
-Testataan näkyykö sivu www.testisivu.wiki osoitteella. Aikaa A recordien ja testin välillä noin 3 minuuttia.<br>
+Testataan näkyykö sivu www.testisivu.wiki osoitteella. Aikaa A recordien määrittämisen ja testin välillä noin 3 minuuttia.<br>
 <br>
 ![Description](kokeilu.png) <br>
 <br>
 Kotisivu toimii nimellä haettaessa.<br>
 ### b) host ja dig
-$ host www.testisivu.wiki ja katsotaan mitä tulos sanoo.
+$ host www.testisivu.wiki ja $ host 139.144.73.75 <br>
 <br>
 ![Description](host.png) <br>
 <br>
-
+Host komento kertoo mikä on domainin IPv4-osoite ja alempi komento kertoo mikä on palvelimen palveluntarjoaja. <br> 
 <br>
 ![Description](dig.png) <br>
 <br>

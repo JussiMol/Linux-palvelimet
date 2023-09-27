@@ -164,7 +164,7 @@ $ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
 ![Description](testikantaconf.png) <br>
 <br>
 <br>
-![Add file: Upload](curlaus.png)
+![Description](curlaus.png) <br>
 <br>
 ### Lähteet
 Tero Karvinen <br>

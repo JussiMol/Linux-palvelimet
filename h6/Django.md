@@ -162,6 +162,9 @@ $ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
 <br>
 ![Description](testikantaconf.png) <br>
 <br>
+<br>
+![Description](curlaus.png) <br>
+<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

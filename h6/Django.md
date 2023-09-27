@@ -243,7 +243,7 @@ Hetken aikaa pähkäiltyä ja <a href="(https://docs.djangoproject.com/en/4.2/ho
 Kokeillaan jos tuon absoluuttisen polun laittaa ja jos sillä ei selkiä niin ei varmaan millään. <br>
 Ei toiminut sekään. <br>
 Set STATIC_ROOT to an absolute path to the static/ folder in your Django project. Taidettiin mennä metsään tuossa kohti. <br>
-Ei aleta nyt muuttamaan enään yli 6 tunnin työskentelyn jälkeen.Katotaan jos inspiroituu myöhemmin. <br>
+Yli 6 tunnin työskentelyn jälkeen ei huvita alkaa kikkailemaan.Katotaan jos inspiroituu myöhemmin. <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

@@ -188,7 +188,7 @@ $ /sbin/apache2ctl configtest<br>
 ![Description](syntax.png) <br>
 <br>
 Syntaksi on ok<br>
-Valittaa ettei ole varsinaista domainia niin käytetään localhostia ilmeisesti.<br>
+Valittaa ettei ole varsinaista domainia niin käytetään localhostia.<br>
 $ curl -s localhost|grep title <br>
 <br>
 ![Description](error.png) <br>

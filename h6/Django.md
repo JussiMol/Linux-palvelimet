@@ -38,17 +38,36 @@ hakemisto löytyy otetaan nopea vilkaisu sisältöön. <br>
 <br>
 ![Description](sis.png) <br>
 <br>
-Ei mennä liian syvälle, löytyy hakemistoja ja suoritettavia tiedostoja. <br>
-$ source bin/activate riittää koska olen jo /env hakemistossa. Aloitetaan käyttämään env ympäristöä.
-/home/jussi/env/bin/pip
-Luodaan /home/jussi/env hakemistoon requirements.txt sisältö "django" 
+Ei mennä liian syvälle, löytyy sym-link tiedostoja (cyan) ja suoritettavia tiedostoja (vihreä). <br>
+$ source bin/activate riittää koska olen jo /env hakemistossa. Aloitetaan käyttämään env ympäristöä.<br>
+/home/jussi/env/bin/pip<br>
+Luodaan /home/jussi/env hakemistoon requirements.txt sisältö "django" <br>
+$ pip install -r requirements.txt - Asennetaan pythonin paketinhallinnalla tiedoston sisällä määritellyt paketit.<br>
 <br>
 ![Description](pip.png) <br>
 <br>
-
-
-
-
+Lopputulos django 4.2.5 versio<br>
+<br>
+![Description](django.png) <br>
+<br>
+Django framework on nyt onnistuneesti asennettu.<br>
+#### Projekti
+Aloitetaan django projekti.<br>
+$ django-admin startproject testikanta <br>
+Tarkistetaan mihin hakemisto luotiin <br>
+<br>
+![Description](testikanta.png) <br>
+<br>
+Helpottaa tilannekuvan hahmottamista suorittaa näitä tarkistuksia.<br>
+Kokeillaas sitten toimiiko kehityspalvelin
+$ cd testikanta
+$ ./manage.py runserver
+<br>
+![Description](toimpro.png) <br>
+<br>
+<br>
+![Description](toim.png) <br>
+<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

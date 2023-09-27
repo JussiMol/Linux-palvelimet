@@ -59,15 +59,20 @@ Tarkistetaan mihin hakemisto luotiin <br>
 ![Description](testikanta.png) <br>
 <br>
 Helpottaa tilannekuvan hahmottamista suorittaa näitä tarkistuksia.<br>
-Kokeillaas sitten toimiiko kehityspalvelin
-$ cd testikanta
-$ ./manage.py runserver
+Kokeillaas sitten toimiiko kehityspalvelin<br>
+$ cd testikanta<br>
+$ ./manage.py runserver<br>
 <br>
 ![Description](toimpro.png) <br>
 <br>
+Starting development server at http://127.0.0.1:8000/ -> Firefox ja url http://127.0.0.1:8000/<br>
 <br>
 ![Description](toim.png) <br>
 <br>
+Palvelin toimii onnistuneesti. <br>
+### Admin interface
+Lisätään admin projektisivulle.
+
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

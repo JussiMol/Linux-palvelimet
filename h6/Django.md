@@ -127,15 +127,28 @@ $ ./manage.py migrate<br>
 <br>
 ![Description](migrate2.png) <br>
 <br>
-Tällä kertaa makemigrations haki tietokantarakenteen. <br>
-Ja migrate komento otti yhden käyttöön. <br>
+Tällä kertaa makemigrations haki tietokantarakenteen. Joka olettaen tekee tietokantaan tuon customer taulun <br>
+Ja migrate komento otti sen käyttöön. <br>
 Jotta muutokset nähtäisiin ne täytyy rekisteröidä <br>
 $ micro crm/admin.py<br>
 <br>
 ![Description](admin.png) <br>
 <br>
-
-
+Palvelin päälle ja katsotaan mitä on tehty. <br>
+$ ./manage.py runserver<br>
+<br>
+![Description](crm2.png) <br>
+<br>
+CRM ja pari asiakasta lisätty onnistuneesti. <br>
+Asiakkaille nimet lisäämällä models.py tiedostoon metodi joka palauttaa customer olion nimen.<br>
+<br>
+![Description](models2.png) <br>
+<br>
+Palvelin päälle ja katsotaan muuttuiko nimet. <br>
+<br>
+![Description](asiakkaat.png) <br>
+<br>
+Asiakkaiden nimet näkyy normaalisti, tehtävä suoritettu <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

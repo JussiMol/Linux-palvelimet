@@ -113,7 +113,7 @@ $ ./manage.py startapp crm
 Lisätään crm testikanta/settings.py tiedostoon INSTALLED_APPS osioon.
 $ micro testikanta/settings.py
 <br>
-![Description](crm.png) <br>
+![Description](set.png) <br>
 <br>
 Sitten muokataan crm hakemiston sisältöjä. <br>
 $ micro crm/models.py

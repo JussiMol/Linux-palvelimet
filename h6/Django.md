@@ -79,7 +79,7 @@ Tuloste on seuraava <br>
 <br>
 ![Description](migrate.png) <br>
 <br>
-Ensimmäinen komento ei tehnyt mitään muutoksia mutta migrate komento ilmeisesti haki joitain tietokantarakenteita.<br>
+Ensimmäinen komento ei tehnyt mitään muutoksia mutta migrate komento ilmeisesti otti käyttöön joitain tietokantarakenteita.<br>
 Lisätään käyttäjä. <br>
 $ ./manage.py createsuperuser<br>
 <br>
@@ -105,18 +105,18 @@ Kokeillaan kirjautua<br>
 <br>
 esmes on sisällä, käyttäjän lisäys onnistui. <br>
 ### CRM tietokanta
-Uusi hakemisto crm sovellukselle
-$ ./manage.py startapp crm
+Uusi hakemisto crm sovellukselle<br>
+$ ./manage.py startapp crm<br>
 <br>
 ![Description](crm.png) <br>
 <br>
-Lisätään crm testikanta/settings.py tiedostoon INSTALLED_APPS osioon.
-$ micro testikanta/settings.py
+Lisätään crm testikanta/settings.py tiedostoon INSTALLED_APPS osioon.<br>
+$ micro testikanta/settings.py<br>
 <br>
 ![Description](set.png) <br>
 <br>
 Sitten muokataan crm hakemiston sisältöjä. <br>
-$ micro crm/models.py
+$ micro crm/models.py<br>
 <br>
 ![Description](models.png) <br>
 <br>
@@ -128,8 +128,9 @@ $ ./manage.py migrate<br>
 ![Description](migrate2.png) <br>
 <br>
 Tällä kertaa makemigrations haki tietokantarakenteen. <br>
+Ja migrate komento otti yhden käyttöön. <br>
 Jotta muutokset nähtäisiin ne täytyy rekisteröidä <br>
-$ micro crm/admin.py
+$ micro crm/admin.py<br>
 <br>
 ![Description](admin.py.png) <br>
 <br>

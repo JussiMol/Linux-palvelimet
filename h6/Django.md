@@ -159,12 +159,7 @@ Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
 - Djangolla tehty projekti<br>
 Aloitetaan siis luomalla virtualhost.<br>
 $ sudoedit /etc/apache2/sites-available/testikanta.conf<br>
-<br>
-![Description](asiakkaat.png)<br>
-<br>
-<br>
-![Description](admin.png)<br>
-<br>
+
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

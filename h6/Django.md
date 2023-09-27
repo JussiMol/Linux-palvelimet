@@ -51,7 +51,7 @@ Lopputulos django 4.2.5 versio<br>
 ![Description](django.png) <br>
 <br>
 Django framework on nyt onnistuneesti asennettu.<br>
-#### Projekti
+#### b)Projekti tietokannalla
 Aloitetaan django projekti.<br>
 $ django-admin startproject testikanta <br>
 Tarkistetaan mihin hakemisto luotiin <br>
@@ -149,6 +149,22 @@ Palvelin päälle ja katsotaan muuttuiko nimet. <br>
 ![Description](asiakkaat.png) <br>
 <br>
 Asiakkaiden nimet näkyy normaalisti, tehtävä suoritettu <br>
+### c)Tuotantotyyppinen asennus
+Seurataan <a href="https://terokarvinen.com/2022/deploy-django/"> Karvisen ohjeita</a> djangon tuotantoasennukseen<br>
+Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
+- Apache2
+- micro
+- /var/www/html/index.html apachen vakiosivu vaihdettuna
+- /home/jussi/public_html löytyy index.html
+- Djangolla tehty projekti
+Aloitetaan siis luomalla virtualhost.
+$ sudoedit /etc/apache2/sites-available/testikanta.conf
+<br>
+![Description](conf.png) <br>
+<br>
+<br>
+![Description](curl.png) <br>
+<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

@@ -194,7 +194,7 @@ $ curl -s localhost|grep title <br>
 ![Description](error.png) <br>
 <br>
 Jokin on pielessä. <br>
-Tarkistetaas testikanta.conf tiedoston sisältö. Sieltähän löytyi pieniä virheitä.<br>
+Tarkistetaas testikanta.conf tiedoston sisältö. Sieltähän löytyy pieniä virheitä.<br>
 Alias /static/ ${TDIR}/public_html/ on väärä. /static/ kuuluu vaihtaa /public_html/ <br>
 Katselin tarkistuksena läpi nuo hakemistopolut ja TVENV on väärä nykyinen versio on python3.11 joten 3.9 pitää vaihtaa <br>
 <br>

@@ -172,7 +172,7 @@ Siirrytään ohjeessa osioon Connect Python to Apache using mod_wsgi <br>
 Muokataan konfiguraatiotiedostoa.<br>
 $ sudoedit /etc/apache2/sites-available/testikanta.conf<br>
 <br>
-![Description](sudoedit.png) <br>
+![Description](sudoedit1.png) <br>
 <br>
 Mikäli tulkitsin oikein niin sen pitäisi olla oikein. <br>
 TDIR - polku mistä löytyy manage.py ok<br>

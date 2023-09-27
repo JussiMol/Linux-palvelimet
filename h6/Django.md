@@ -132,7 +132,7 @@ Ja migrate komento otti yhden käyttöön. <br>
 Jotta muutokset nähtäisiin ne täytyy rekisteröidä <br>
 $ micro crm/admin.py<br>
 <br>
-![Description](admin.py.png) <br>
+![Description](admin.png) <br>
 <br>
 
 

@@ -163,8 +163,21 @@ $ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
 <br>
 ![Description](testikantaconf.png) <br>
 <br>
+Otetaan sivusto käyttöön ja poistetaan default käytöstä, Apachen uudelleenkäynnistys sekä testataan curl localhost miltä näyttää. <br>
 <br>
 ![Description](curlaus.png) <br>
+<br>
+Siirrytään ohjeessa osioon Connect Python to Apache using mod_wsgi <br>
+Muokataan konfiguraatiotiedostoa.
+$ sudoedit /etc/apache2/sites-available/testikanta.conf
+<br>
+![Description](sudoedit.png) <br>
+<br>
+Mikäli tulkitsin oikein niin sen pitäisi olla oikein. <br>
+TDIR - polku mistä löytyy manage.py ok
+TWSGI - polku mistä löytyy wsgi.py
+<br>
+![Description](tarkistus.png) <br>
 <br>
 ### Lähteet
 Tero Karvinen <br>

@@ -24,7 +24,7 @@ Djangon ja Apachen yhdistämisessä tarvitaan 3 hakemistopolkua. Django projekti
 Copy-pastea tiedostopolkuja ja vältä kirjoitusvirheet = debug tarve vähenee.<br>
 /etc/apache2/sites-available/ konfiguraatiotiedosto vaatii nyt enemmän kuin pelkän virtualhostin<br>
 Debug moodi kannattaa poistaa käytöstä, ettei paljasta ylimääräistä tietoa hakkereille tms.<br>
-### a) Djangon asennus
+## a) Djangon asennus
 Aloitetaan seuraamalla<a href="https://terokarvinen.com/2022/django-instant-crm-tutorial/"> Karvisen ohjeita</a> Djangon asennukseen ja siitä tietokannan rakentamiseen. <br>
 Teen tehtävän omalla paikallisella virtuaalikoneelle.<br>
 $ sudo apt-get update ja upgrade perään. Paketinhallinta päivitetty. <br>
@@ -51,7 +51,7 @@ Lopputulos django 4.2.5 versio<br>
 ![Description](django.png) <br>
 <br>
 Django framework on nyt onnistuneesti asennettu.<br>
-#### b)Projekti tietokannalla
+### b) Projekti tietokannalla
 Aloitetaan django projekti.<br>
 $ django-admin startproject testikanta <br>
 Tarkistetaan mihin hakemisto luotiin <br>

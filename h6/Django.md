@@ -160,7 +160,10 @@ Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
 Aloitetaan siis luomalla virtualhost.<br>
 $ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
 <br>
-![Description](testikantaconf.png) <br>
+![Add file: Upload](testikantaconf.png) <br>
+<br>
+<br>
+![Add file: Upload](curlaus.png) <br>
 <br>
 ### Lähteet
 Tero Karvinen <br>

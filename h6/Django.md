@@ -95,6 +95,46 @@ Kirjaudun laittamillani tiedoilla.<br>
 ![Description](adm.png) <br>
 <br>
 Sisällä ollaan, kirjautuminen toimii.<br>
+Tehdään uusi käyttäjä Users kohdasta vihreästä plus merkistä<br>
+Annetaan käyttäjänimeksi esmes ja hyvä salasana <br>
+esmessille staff ja superuser ryhmät että voi muokata tietoa. <br>
+Permissions kohdasta laitetaan staff ja superuser laatikoihin täpät ja sivun alaosasta save <br>
+Kokeillaan kirjautua<br>
+<br>
+![Description](esmes.png) <br>
+<br>
+esmes on sisällä, käyttäjän lisäys onnistui. <br>
+### CRM tietokanta
+Uusi hakemisto crm sovellukselle
+$ ./manage.py startapp crm
+<br>
+![Description](crm.png) <br>
+<br>
+Lisätään crm testikanta/settings.py tiedostoon INSTALLED_APPS osioon.
+$ micro testikanta/settings.py
+<br>
+![Description](crm.png) <br>
+<br>
+Sitten muokataan crm hakemiston sisältöjä. <br>
+$ micro crm/models.py
+<br>
+![Description](models.png) <br>
+<br>
+Tällä saadaan luotua "customer" taulu tietokantaan "name" sarakkeella<br>
+Tuodaan uudet tietokannan rakenteet. <br>
+$ ./manage.py makemigrations<br>
+$ ./manage.py migrate<br>
+<br>
+![Description](migrate2.png) <br>
+<br>
+Tällä kertaa makemigrations haki tietokantarakenteen. <br>
+Jotta muutokset nähtäisiin ne täytyy rekisteröidä <br>
+$ micro crm/admin.py
+<br>
+![Description](admin.py.png) <br>
+<br>
+
+
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

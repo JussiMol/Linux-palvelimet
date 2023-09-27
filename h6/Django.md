@@ -71,8 +71,30 @@ Starting development server at http://127.0.0.1:8000/ -> Firefox ja url http://1
 <br>
 Palvelin toimii onnistuneesti. <br>
 ### Admin interface
-Lisätään admin projektisivulle.
-
+Kirjautumissivut ovat olemassa mutta ei käytössä<br>
+Päivitetään tietokanta.<br>
+$ ./manage.py makemigrations<br>
+$ ./manage.py migrate<br>
+Tuloste on seuraava <br>
+<br>
+![Description](migrate.png) <br>
+<br>
+Ensimmäinen komento ei tehnyt mitään muutoksia mutta migrate komento ilmeisesti haki joitain tietokantarakenteita.<br>
+Lisätään käyttäjä. <br>
+$ ./manage.py createsuperuser
+<br>
+![Description](csu.png) <br>
+<br>
+Kysyy tiedot, syötetään ne. Palvelin päälle $ ./manage.py runserver ja kokeillaan portin perään
+URL - http://127.0.0.1:8000/admin/
+<br>
+![Description](kir.png) <br>
+<br>
+Kirjaudun laittamillani tiedoilla.
+<br>
+![Description](adm.png) <br>
+<br>
+Sisällä ollaan, kirjautuminen toimii.
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

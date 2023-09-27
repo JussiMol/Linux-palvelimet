@@ -253,7 +253,7 @@ Ennen kun yritin ajaa ./manage.py collectstatic pistin (env) tilan päälle ja m
 <br>
 localhost/admin näyttää samalta kuin aiemmin. <br>
 Melkoista hemulointia oli mutta saatiin maaliin.<br>
-
+Aikaa kului jotain 9 ja 11 tunnin väliltä. <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

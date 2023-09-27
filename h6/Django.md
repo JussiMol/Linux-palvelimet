@@ -229,7 +229,7 @@ $ touch testikanta/wsgi.py päivittää tiedoston. <br>
 Apache uudelleenkäynnistys. <br>
 $ curl -s localhost|grep title <br>
 <title>Not Found</title> <br>
-Homma menee juuri kuin ohjeessa. <br>
+Homma menee juuri kuin ohjeessa. <br><br>
 http://localhost/admin on aika orvon näköinen ilman tyylejä <br>
 $ cd env/testikanta/<br>
 $ micro testikanta/settings.py<br>
@@ -237,8 +237,8 @@ Lisätään tiedostoon STATIC_ROOT tieto tiedostoon.<br>
 $ ./manage.py collectstatic
 Tulostaa /usr/bin/env: ‘python’: No such file or directory <br>
 Kokeilen vaihtaa tiedostossa 'static/' -> 'testikanta/' <br>
-Kokeillaan uudestaan. Sama tuloste <br>
-Hetken aikaa pähkäiltyä ja <a href="(https://docs.djangoproject.com/en/4.2/howto/static-files/)">Djanon ohjeita</a> silmäillessä, taitaa ongelma olla nyt siinä että kotisivu on eri paikassa kuin django projekti. <br>
+Kokeillaan uudestaan. Sama tuloste <br><br>
+Hetken aikaa pähkäiltyä ja <a href="(https://docs.djangoproject.com/en/4.2/howto/static-files/)">Djangon ohjeita</a> silmäillessä, taitaa ongelma olla nyt siinä että kotisivu on eri paikassa kuin django projekti. <br>
 Kokeillaan jos tuon absoluuttisen polun laittaa ja jos sillä ei selkiä niin ei varmaan millään. <br>
 Ei toiminut sekään. <br>
 Set STATIC_ROOT to an absolute path to the static/ folder in your Django project. Taidettiin mennä metsään tuossa kohti. <br>

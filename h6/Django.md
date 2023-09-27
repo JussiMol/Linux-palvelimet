@@ -156,14 +156,14 @@ Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
 - micro
 - /var/www/html/index.html apachen vakiosivu vaihdettuna
 - /home/jussi/public_html löytyy index.html
-- Djangolla tehty projekti
-Aloitetaan siis luomalla virtualhost.
-$ sudoedit /etc/apache2/sites-available/testikanta.conf
+- Djangolla tehty projekti<br>
+Aloitetaan siis luomalla virtualhost.<br>
+$ sudoedit /etc/apache2/sites-available/testikanta.conf<br>
 <br>
-![Description](testikantaconf.png) <br>
+![Description](testikantaconf.png)<br>
 <br>
 <br>
-![Description](curlaus.png) <br>
+![Description](curlaus.png)<br>
 <br>
 ### Lähteet
 Tero Karvinen <br>

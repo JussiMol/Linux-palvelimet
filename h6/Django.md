@@ -214,6 +214,26 @@ Selaimella testi. <br>
 ![Description](selain.png) <br>
 <br>
 TOIMII! <br>
+### Debug pois
+Virheilmoitukset on kultakaivos hakkereille otetaan ne pois päältä. <br>
+$ cd env/testikanta
+$ micro testikanta/settings.py
+Muutetaan seuraavat kohdat. <br>
+DEBUG = False <br>
+ALLOWED_HOSTS = ["localhost"] (ei sähköpostia koska nyt ollaan ihan paikallisesti eikä ole domainia)
+<br>
+![Description](debug.png) <br>
+<br>
+Jopa kommentti sanoo ettei tuotannossa pidä olla debug päällä. <br>
+$ touch testikanta/wsgi.py päivittää tiedoston. <br>
+Apache uudelleenkäynnistys. <br>
+$ curl -s localhost|grep title <br>
+<title>Not Found</title> <br>
+Homma menee juuri kuin ohjeessa. <br>
+$ cd env/testikanta/
+$ micro testikanta/settings.py
+Lisätään tiedostoon STATIC_ROOT tieto <br>
+
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

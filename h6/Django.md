@@ -252,8 +252,10 @@ Ennen kun yritin ajaa ./manage.py collectstatic pistin (env) tilan päälle ja m
 ![Description](halleluja.png) <br>
 <br>
 localhost/admin näyttää samalta kuin aiemmin. <br>
-Melkoista hemulointia oli mutta saatiin maaliin.<br>
-Aikaa kului jotain 9 ja 11 tunnin väliltä. <br>
+127.0.0.1 antaa 400 Bad requestia. <br>
+Melkoista hemulointia oli mutta saatiin maaliin (ainakin osittain).<br>
+Täydellisyys on varmaan pienen .conf säädön päässä <br>
+Aikaa kului jotain 10 tunnin luokkaa. <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

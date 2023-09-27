@@ -233,7 +233,8 @@ Homma menee juuri kuin ohjeessa. <br><br>
 http://localhost/admin on aika orvon näköinen ilman tyylejä <br>
 $ cd env/testikanta/<br>
 $ micro testikanta/settings.py<br>
-Lisätään tiedostoon STATIC_ROOT tieto tiedostoon.<br>
+Lisätään tiedostoon STATIC_ROOT tieto.<br>
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/') <br>
 $ ./manage.py collectstatic
 Tulostaa /usr/bin/env: ‘python’: No such file or directory <br>
 Kokeilen vaihtaa tiedostossa 'static/' -> 'testikanta/' <br>

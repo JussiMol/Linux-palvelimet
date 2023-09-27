@@ -238,10 +238,18 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/') <br>
 $ ./manage.py collectstatic
 Tulostaa /usr/bin/env: ‘python’: No such file or directory <br><br>
 Hetken aikaa pähkäiltyä ja <a href="(https://docs.djangoproject.com/en/4.2/howto/static-files/)">Djangon ohjeita</a> silmäillessä, taitaa ongelma olla nyt siinä että kotisivu on eri paikassa kuin django projekti. <br>
-Kokeillaan jos tuon absoluuttisen polun laittaa ja jos sillä ei selkiä niin ei varmaan millään. <br>
-Ei toiminut sekään. <br>
-Yli 6 tunnin työskentelyn jälkeen ei huvita alkaa kikkailemaan.Katotaan jos inspiroituu myöhemmin. <br>
-
+Tämä osio ei toiminut sitten yhtään ja päädyin tekemään seuraavat toimenpiteet. <br>
+Palautin tilanteen siihen pisteeseen että debug on taas päällä muokkaamalla settings.py tiedostoa.<br>
+Tein static hakemiston /env/testikanta sisään ja tein sinne index.html tiedoston.<br>
+Muokkasin testikanta.conf tiedoston osia osoittamaan /static/ <br>
+<br>
+![Description](korjaus.png) <br>
+<br>
+Tarkistin testikanta/settings.py STATIC_ROOT kohdan ja muutin debug takaisin False<br>
+Ennen kun yritin ajaa ./manage.py collectstatic pistin (env) tilan päälle ja mites sitten kävikään. <br>
+<br>
+![Description](halleluja.png) <br>
+<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

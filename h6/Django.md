@@ -28,9 +28,24 @@ Debug moodi kannattaa poistaa käytöstä, ettei paljasta ylimääräistä tieto
 Aloitetaan seuraamalla<a href="https://terokarvinen.com/2022/django-instant-crm-tutorial/"> Karvisen ohjeita</a> Djangon asennukseen ja siitä tietokannan rakentamiseen. <br>
 Teen tehtävän omalla paikallisella virtuaalikoneelle.<br>
 $ sudo apt-get update ja upgrade perään. Paketinhallinta päivitetty. <br>
-$ sudo apt-get -y install virtualenv - asennetaan virtualenv ympäristö. -y on automaattinen "yes" vastaus yes/no kyselyihin.
-$ virtualenv --system-site-packages -p python3 env/ Tällä komennolla luodaan virtuaaliympäristö joka pääsee käsiksi järjestelmän paketteihin ja luo env/ hakemiston.
-Katsotaan tekikö komento hakemiston.
+$ sudo apt-get -y install virtualenv - asennetaan virtualenv ympäristö. -y on automaattinen "yes" vastaus yes/no kyselyihin.<br>
+$ virtualenv --system-site-packages -p python3 env/ Tällä komennolla luodaan virtuaaliympäristö joka pääsee käsiksi järjestelmän paketteihin ja luo env/ hakemiston.<br>
+Katsotaan tekikö komento hakemiston.<br>
+<br>
+![Description](env.png) <br>
+<br>
+hakemisto löytyy otetaan nopea vilkaisu sisältöön. <br>
+<br>
+![Description](sis.png) <br>
+<br>
+Ei mennä liian syvälle, löytyy hakemistoja ja suoritettavia tiedostoja. <br>
+$ source bin/activate riittää koska olen jo /env hakemistossa. Aloitetaan käyttämään env ympäristöä.
+/home/jussi/env/bin/pip
+Luodaan /home/jussi/env hakemistoon requirements.txt sisältö "django" 
+<br>
+![Description](pip.png) <br>
+<br>
+
 
 
 

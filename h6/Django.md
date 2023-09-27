@@ -172,9 +172,9 @@ Siirrytään ohjeessa osioon Connect Python to Apache using mod_wsgi <br>
 Muokataan konfiguraatiotiedostoa.<br>
 $ sudoedit /etc/apache2/sites-available/testikanta.conf<br>
 <br>
-![Description](sudoedit1.png) <br>
+![Description](sudoedit.png) <br>
 <br>
-Mikäli tulkitsin oikein niin sen pitäisi olla oikein. <br>
+Mikäli tulkitsin oikein niin sen pitäisi olla oikein. (EI OLLUT)<br>
 TDIR - polku mistä löytyy manage.py ok<br>
 TWSGI - polku mistä löytyy wsgi.py ok<br>
 <br>
@@ -194,7 +194,26 @@ $ curl -s localhost|grep title <br>
 ![Description](error.png) <br>
 <br>
 Jokin on pielessä. <br>
-Tarkistetaas testikanta.conf tiedoston sisältö.<br>
+Tarkistetaas testikanta.conf tiedoston sisältö. Sieltähän löytyi pieniä virheitä.<br>
+Alias /static/ ${TDIR}/public_html/ on väärä. /static/ kuuluu vaihtaa /public_html/ <br>
+Katselin tarkistuksena läpi nuo hakemistopolut ja TVENV on väärä nykyinen versio on python3.11 joten 3.9 pitää vaihtaa <br>
+<br>
+![Description](sudoedit1.png) <br>
+<br>
+Apachelle uudelleenkäynnistys<br>
+Katsotaas mitä verkkosivu sanoo <br>
+Kokeillaan komennot <br>
+$ curl -s localhost|grep title <br>
+$ curl -sI localhost|grep Server <br>
+<br>
+![Description](sucsee.png) <br>
+<br>
+Apachehan se siellä. <br>
+Selaimella testi. <br>
+<br>
+![Description](selain.png) <br>
+<br>
+TOIMII! <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

@@ -160,6 +160,7 @@ Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
 
 Aloitetaan siis luomalla virtualhost.<br>
 $ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
+(EDIT. Pidemmälle mennessä huomasin että tämän sisältö on väärin mutta se korvattiin)<br>
 <br>
 ![Description](testikantaconf.png) <br>
 <br>
@@ -188,8 +189,12 @@ $ /sbin/apache2ctl configtest<br>
 <br>
 Syntaksi on ok<br>
 Valittaa ettei ole varsinaista domainia niin käytetään localhostia ilmeisesti.<br>
-
-
+$ curl -s localhost|grep title <br>
+<br>
+![Description](error.png) <br>
+<br>
+Jokin on pielessä. <br>
+Tarkistetaas testikanta.conf tiedoston sisältö.<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

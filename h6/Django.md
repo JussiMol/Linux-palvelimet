@@ -168,17 +168,28 @@ Otetaan sivusto käyttöön ja poistetaan default käytöstä, Apachen uudelleen
 ![Description](curlaus.png) <br>
 <br>
 Siirrytään ohjeessa osioon Connect Python to Apache using mod_wsgi <br>
-Muokataan konfiguraatiotiedostoa.
-$ sudoedit /etc/apache2/sites-available/testikanta.conf
+Muokataan konfiguraatiotiedostoa.<br>
+$ sudoedit /etc/apache2/sites-available/testikanta.conf<br>
 <br>
 ![Description](sudoedit.png) <br>
 <br>
 Mikäli tulkitsin oikein niin sen pitäisi olla oikein. <br>
-TDIR - polku mistä löytyy manage.py ok
-TWSGI - polku mistä löytyy wsgi.py
+TDIR - polku mistä löytyy manage.py ok<br>
+TWSGI - polku mistä löytyy wsgi.py ok<br>
 <br>
 ![Description](tarkistus.png) <br>
 <br>
+Asennetaan Apachen WSGI moduuli <br>
+$ sudo apt-get -y install libapache2-mod-wsgi-py3 <br>
+Testataan syntaksi komennolla <br>
+$ /sbin/apache2ctl configtest<br>
+<br>
+![Description](syntax.png) <br>
+<br>
+Syntaksi on ok<br>
+Valittaa ettei ole varsinaista domainia niin käytetään localhostia ilmeisesti.<br>
+
+
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

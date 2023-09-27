@@ -81,20 +81,20 @@ Tuloste on seuraava <br>
 <br>
 Ensimmäinen komento ei tehnyt mitään muutoksia mutta migrate komento ilmeisesti haki joitain tietokantarakenteita.<br>
 Lisätään käyttäjä. <br>
-$ ./manage.py createsuperuser
+$ ./manage.py createsuperuser<br>
 <br>
 ![Description](csu.png) <br>
 <br>
-Kysyy tiedot, syötetään ne. Palvelin päälle $ ./manage.py runserver ja kokeillaan portin perään
-URL - http://127.0.0.1:8000/admin/
+Kysyy tiedot, syötetään ne. Palvelin päälle $ ./manage.py runserver <br>
+URL - http://127.0.0.1:8000/admin/<br>
 <br>
 ![Description](kir.png) <br>
 <br>
-Kirjaudun laittamillani tiedoilla.
+Kirjaudun laittamillani tiedoilla.<br>
 <br>
 ![Description](adm.png) <br>
 <br>
-Sisällä ollaan, kirjautuminen toimii.
+Sisällä ollaan, kirjautuminen toimii.<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

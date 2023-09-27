@@ -26,9 +26,11 @@ Copy-pastea tiedostopolkuja ja vältä kirjoitusvirheet = debug tarve vähenee.<
 Debug moodi kannattaa poistaa käytöstä, ettei paljasta ylimääräistä tietoa hakkereille tms.<br>
 ### a) Djangon asennus
 Aloitetaan seuraamalla<a href="https://terokarvinen.com/2022/django-instant-crm-tutorial/"> Karvisen ohjeita</a> Djangon asennukseen ja siitä tietokannan rakentamiseen. <br>
-
-
-
+Teen tehtävän omalla paikallisella virtuaalikoneelle.<br>
+$ sudo apt-get update ja upgrade perään. Paketinhallinta päivitetty. <br>
+$ sudo apt-get -y install virtualenv - asennetaan virtualenv ympäristö. -y on automaattinen "yes" vastaus yes/no kyselyihin.
+$ virtualenv --system-site-packages -p python3 env/ Tällä komennolla luodaan virtuaaliympäristö joka pääsee käsiksi järjestelmän paketteihin ja luo env/ hakemiston.
+Katsotaan tekikö komento hakemiston.
 
 
 

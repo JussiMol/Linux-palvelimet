@@ -216,11 +216,11 @@ Selaimella testi. <br>
 TOIMII! <br>
 ### Debug pois
 Virheilmoitukset on kultakaivos hakkereille otetaan ne pois päältä. <br>
-$ cd env/testikanta
-$ micro testikanta/settings.py
+$ cd env/testikanta<br>
+$ micro testikanta/settings.py<br>
 Muutetaan seuraavat kohdat. <br>
 DEBUG = False <br>
-ALLOWED_HOSTS = ["localhost"] (ei sähköpostia koska nyt ollaan ihan paikallisesti eikä ole domainia)
+ALLOWED_HOSTS = ["localhost"] (ei sähköpostia koska nyt ollaan ihan paikallisesti eikä ole domainia)<br>
 <br>
 ![Description](debug.png) <br>
 <br>
@@ -230,8 +230,8 @@ Apache uudelleenkäynnistys. <br>
 $ curl -s localhost|grep title <br>
 <title>Not Found</title> <br>
 Homma menee juuri kuin ohjeessa. <br>
-$ cd env/testikanta/
-$ micro testikanta/settings.py
+$ cd env/testikanta/<br>
+$ micro testikanta/settings.py<br>
 Lisätään tiedostoon STATIC_ROOT tieto <br>
 
 ### Lähteet

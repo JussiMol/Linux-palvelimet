@@ -195,7 +195,7 @@ $ curl -s localhost|grep title <br>
 <br>
 Jokin on pielessä. <br>
 Tarkistetaas testikanta.conf tiedoston sisältö. Sieltähän löytyy pieniä virheitä.<br>
-Alias /static/ ${TDIR}/public_html/ on väärä. /static/ kuuluu vaihtaa /public_html/ <br>
+Alias /static/ ${TDIR}/public_html/ on väärä. /static/ kuuluu vaihtaa /public_html/ (KUULUIKO SITTENKÄÄN ( ͡° ͜ʖ ͡°) )<br>
 Katselin tarkistuksena läpi nuo hakemistopolut ja TVENV on väärä nykyinen versio on python3.11 joten 3.9 pitää vaihtaa <br>
 <br>
 ![Description](sudoedit1.png) <br>
@@ -235,13 +235,14 @@ $ cd env/testikanta/<br>
 $ micro testikanta/settings.py<br>
 Lisätään tiedostoon STATIC_ROOT tieto.<br>
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/') <br>
-$ ./manage.py collectstatic
-Tulostaa /usr/bin/env: ‘python’: No such file or directory <br><br>
-Hetken aikaa pähkäiltyä ja <a href="(https://docs.djangoproject.com/en/4.2/howto/static-files/)">Djangon ohjeita</a> silmäillessä, taitaa ongelma olla nyt siinä että kotisivu on eri paikassa kuin django projekti. <br>
-Tämä osio ei toiminut sitten yhtään ja päädyin tekemään seuraavat toimenpiteet. <br>
+$ ./manage.py collectstatic <br>
+Tulostaa /usr/bin/env: ‘python’: No such file or directory <br> <br>
+Hetken aikaa pähkäiltyä ja <a href="(https://docs.djangoproject.com/en/4.2/howto/static-files/)"> Djangon ohjeita </a> silmäillessä, taitaa ongelma olla nyt siinä että kotisivu on eri paikassa kuin django projekti. <br>
+Tämä osio ei toiminut sitten yhtään ja päädyin tekemään seuraavat toimenpiteet. <br> <br>
 Palautin tilanteen siihen pisteeseen että debug on taas päällä muokkaamalla settings.py tiedostoa.<br>
+
 Tein static hakemiston /env/testikanta sisään ja tein sinne index.html tiedoston.<br>
-Muokkasin testikanta.conf tiedoston osia osoittamaan /static/ <br>
+Muokkasin testikanta.conf virtualhost osia osoittamaan /static/ <br>
 <br>
 ![Description](korjaus.png) <br>
 <br>
@@ -250,6 +251,8 @@ Ennen kun yritin ajaa ./manage.py collectstatic pistin (env) tilan päälle ja m
 <br>
 ![Description](halleluja.png) <br>
 <br>
+Sivu näyttää samalta kuin aiemmin. <br>
+Melkoista hemulointia oli mutta saatiin maaliin.<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

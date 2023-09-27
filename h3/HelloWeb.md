@@ -130,8 +130,3 @@ Apache Software Foundation<br>
 https://httpd.apache.org/docs/2.4/logs.html<br>
 Mozilla<br>
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers<br>
-
-
-<br>
-![Description]((https://github.com/JussiMol/Linux-palvelimet/blob/main/h6/testikantaconf.png?raw=true)) <br>
-<br>

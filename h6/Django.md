@@ -158,8 +158,10 @@ Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
 - /home/jussi/public_html löytyy index.html
 - Djangolla tehty projekti<br>
 Aloitetaan siis luomalla virtualhost.<br>
-$ sudoedit /etc/apache2/sites-available/testikanta.conf<br>
-
+$ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
+<br>
+![Description](testikanta.conf.png) <br>
+<br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

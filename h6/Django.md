@@ -152,18 +152,19 @@ Asiakkaiden nimet näkyy normaalisti, tehtävä suoritettu <br>
 ### c)Tuotantotyyppinen asennus
 Seurataan <a href="https://terokarvinen.com/2022/deploy-django/"> Karvisen ohjeita</a> djangon tuotantoasennukseen<br>
 Listataan alkunu mitä kaikkea omalla virtuaalikoneella on jo valmiina<br>
-- Apache2
-- micro
-- /var/www/html/index.html apachen vakiosivu vaihdettuna
-- /home/jussi/public_html löytyy index.html
+- Apache2<br>
+- micro<br>
+- /var/www/html/index.html apachen vakiosivu vaihdettuna<br>
+- /home/jussi/public_html löytyy index.html<br>
 - Djangolla tehty projekti<br>
+
 Aloitetaan siis luomalla virtualhost.<br>
 $ sudoedit /etc/apache2/sites-available/testikanta.conf <br>
 <br>
-![Add file: Upload](testikantaconf.png) <br>
+![Description](testikantaconf.png) <br>
 <br>
 <br>
-![Add file: Upload](curlaus.png) <br>
+![Add file: Upload](curlaus.png)
 <br>
 ### Lähteet
 Tero Karvinen <br>

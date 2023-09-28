@@ -195,7 +195,7 @@ $ curl -s localhost|grep title <br>
 <br>
 Jokin on pielessä. <br>
 Tarkistetaas testikanta.conf tiedoston sisältö. Sieltähän löytyy pieniä virheitä.<br>
-Alias /static/ ${TDIR}/public_html/ on väärä. /static/ kuuluu vaihtaa /public_html/ (KUULUIKO SITTENKÄÄN ( ͡° ͜ʖ ͡°) )<br>
+Alias /static/ ${TDIR}/public_html/ on väärä. /static/ kuuluu vaihtaa /public_html/ (Tätä kohtaa muutetaan vielä alempana)<br>
 Katselin tarkistuksena läpi nuo hakemistopolut ja TVENV on väärä nykyinen versio on python3.11 joten 3.9 pitää vaihtaa <br>
 <br>
 ![Description](sudoedit1.png) <br>
@@ -251,7 +251,9 @@ Ennen kun yritin ajaa ./manage.py collectstatic pistin (env) tilan päälle ja m
 <br>
 ![Description](halleluja.png) <br>
 <br>
-localhost/admin näyttää samalta kuin aiemmin. <br>
+Apachen uudelleenkäynnistys ja terminaali kiinni niin (env) tila päättyy. <br>
+Selaimella localhost/admin testi -> näyttää samalta kuin aiemmin. <br>
+Olisikohan ollut toimiva ennen muutoksia jos olisi laittanut vaan (env) tilan päälle? <br>
 127.0.0.1 antaa 400 Bad requestia. <br>
 testikanta.conf tiedostoa muokkaamalla saataisiin todennäköisesti tuo virheilmoitus muutettua. <br>
 Aikaa tehtävän tekemiseen meni jotain 9 tunnin luokkaa joten en ala enempää sählätä kun on saatu aikaan ainakin osittain toimiva kokonaisuus. <br>

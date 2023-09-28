@@ -103,7 +103,7 @@ Kokeillaan kirjautua<br>
 <br>
 ![Description](esmes.png) <br>
 <br>
-esmes on sisällä, käyttäjän lisäys onnistui. <br>
+esmes on kirjautununeena, käyttäjän lisäys onnistui. <br>
 ### CRM tietokanta
 Uusi hakemisto crm sovellukselle<br>
 $ ./manage.py startapp crm<br>

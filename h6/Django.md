@@ -255,7 +255,7 @@ Apachen uudelleenkäynnistys ja terminaali kiinni niin (env) tila päättyy. <br
 Selaimella localhost/admin testi -> näyttää samalta kuin aiemmin. <br>
 Olisikohan ollut toimiva ennen muutoksia jos olisi laittanut vaan (env) tilan päälle? <br>
 127.0.0.1 antaa 400 Bad requestia. <br>
-testikanta.conf tiedostoa muokkaamalla saataisiin todennäköisesti tuo virheilmoitus muutettua. <br>
+testikanta.conf tiedostoa Alias osiota muokkaamalla saataisiin todennäköisesti tuo virheilmoitus muutettua. <br>
 Aikaa tehtävän tekemiseen meni jotain 9 tunnin luokkaa. <br>
 ### Lähteet
 Tero Karvinen <br>

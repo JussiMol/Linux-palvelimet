@@ -256,7 +256,7 @@ Selaimella localhost/admin testi -> näyttää samalta kuin aiemmin. <br>
 Olisikohan ollut toimiva ennen muutoksia jos olisi laittanut vaan (env) tilan päälle? <br>
 127.0.0.1 antaa 400 Bad requestia. <br>
 testikanta.conf tiedostoa muokkaamalla saataisiin todennäköisesti tuo virheilmoitus muutettua. <br>
-Aikaa tehtävän tekemiseen meni jotain 9 tunnin luokkaa joten en ala enempää sählätä kun on saatu aikaan ainakin osittain toimiva kokonaisuus. <br>
+Aikaa tehtävän tekemiseen meni jotain 9 tunnin luokkaa. <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>

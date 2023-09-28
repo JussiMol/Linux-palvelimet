@@ -253,9 +253,8 @@ Ennen kun yritin ajaa ./manage.py collectstatic pistin (env) tilan päälle ja m
 <br>
 localhost/admin näyttää samalta kuin aiemmin. <br>
 127.0.0.1 antaa 400 Bad requestia. <br>
-Melkoista hemulointia oli mutta saatiin maaliin (ainakin osittain).<br>
-Täydellisyys on varmaan pienen .conf säädön päässä <br>
-Aikaa kului jotain 10 tunnin luokkaa. <br>
+testikanta.conf tiedostoa muokkaamalla saataisiin todennäköisesti tuo virheilmoitus muutettua. <br>
+Aikaa tehtävän tekemiseen meni jotain 9 tunnin luokkaa joten en ala enempää sählätä kun on saatu aikaan ainakin osittain toimiva kokonaisuus. <br>
 ### Lähteet
 Tero Karvinen <br>
 Python Web - Idea to Production - 2023<br>
@@ -264,3 +263,6 @@ Django 4 Instant Customer Database Tutorial<br>
 https://terokarvinen.com/2022/django-instant-crm-tutorial/<br>
 Deploy Django 4 - Production Install<br>
 https://terokarvinen.com/2022/deploy-django/<br>
+Django Project 
+How to static files
+https://docs.djangoproject.com/en/4.2/howto/static-files

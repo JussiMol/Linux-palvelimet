@@ -11,16 +11,16 @@ Itselle <a href="https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-rub
 Hello world monella eri kielellä.<br>
 ## a) Hei maailmat
 Tehdään yksinkertaiset hello world ohjelmat Tero Karvisen<a href="https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/"> artikkelin</a> ohjeita seuraten Javalla ja C:llä. Pythonilla voi vähän kikkailla kun se on itselle entuudestaan tuttu kieli.<br>
-#### Python
+### Python
 Python oli ladattuna virtuaalikoneelle jo jollain aiemmalla oppitunnilla.<br>
 Käytin tulostuksessa f-merkkijonoa. Se tulostaa lainausmerkkien sisällön ja {} sulkeissa voidaan käyttää muuttujia ja ohjelma tulostaa seuraavasti. <br>
 <br>
 ![Description](python.png)
-#### Java
+### Java
 Javan kanssa seurasin suoraan ohjeita, muutin vaan koodia vähän. <br>
 <br>
 ![Description](java.png)
-#### C
+### C
 C:n kanssa myös ohjeiden mukaan. <br>
 <br>
 ![Description](C.png)
@@ -33,7 +33,7 @@ $ sudo apt-get install rust-all <br>
 ![Description](rust.png)
 <br>
 Microlla tein hello_world.rs tiedoston ja käännettiin rustrc (tiedostonimi) komennolla <br> 
-#### Python laskimena
+### Python laskimena
 Laskuoperaattorit <br>
 ** = potenssi<br>
 % = jakojäännös<br>
@@ -42,7 +42,7 @@ Laskuoperaattorit <br>
 <br>
 ![Description](laskin.png)
 <br>
-#### Shell skripti ja uusi komento
+### Shell skripti ja uusi komento
 Teen microlla tiedoston helloworld.sh ja sisältö selviää kuvasta. <br>
 <br>
 ![Description](bash.png)

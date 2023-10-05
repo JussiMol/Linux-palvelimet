@@ -35,10 +35,10 @@ $ sudo apt-get install rust-all <br>
 Microlla tein hello_world.rs tiedoston ja käännettiin rustrc (tiedostonimi) komennolla <br> 
 #### Python laskimena
 Laskuoperaattorit <br>
-** = potenssi
-% = jakojäännös
-// = jakolasku (kokonaisluku)
-/ = jakolasku (liukuluku)
+** = potenssi<br>
+% = jakojäännös<br>
+// = jakolasku (kokonaisluku)<br>
+/ = jakolasku (liukuluku)<br>
 <br>
 ![Description](laskin.png)
 <br>

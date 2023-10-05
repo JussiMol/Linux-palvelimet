@@ -14,10 +14,13 @@ Tehdään yksinkertaiset hello world ohjelmat Tero Karvisen<a href="https://tero
 #### Python
 Python oli ladattuna virtuaalikoneelle jo jollain aiemmalla oppitunnilla.<br>
 Käytin tulostuksessa f-merkkijonoa. Se tulostaa lainausmerkkien sisällön ja {} sulkeissa voidaan käyttää muuttujia ja ohjelma tulostaa seuraavasti. <br>
+<br>
 ![Description](python.png)
 #### Java
 Javan kanssa seurasin suoraan ohjeita, muutin vaan koodia vähän. <br>
+<br>
 ![Description](java.png)
 #### C
 C:n kanssa myös ohjeiden mukaan. <br>
+<br>
 ![Description](C.png)

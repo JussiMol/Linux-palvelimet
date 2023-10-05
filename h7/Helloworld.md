@@ -24,3 +24,11 @@ Javan kanssa seurasin suoraan ohjeita, muutin vaan koodia vähän. <br>
 C:n kanssa myös ohjeiden mukaan. <br>
 <br>
 ![Description](C.png)
+#### Ekstra kieli Rust
+Asennan paketinhallinnasta Rust kielen. Ensin piti etsiä mitä asennetaan. <br>
+$ sudo apt search rust <br>
+Hetken selailin listaa ja päätin että ladataan koko ohjelmointikieli. <br>
+$ sudo apt-get install rust-all <br>
+<br>
+![Description](rust.png)
+<br>

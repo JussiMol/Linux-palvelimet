@@ -24,7 +24,7 @@ Javan kanssa seurasin suoraan ohjeita, muutin vaan koodia vähän. <br>
 C:n kanssa myös ohjeiden mukaan. <br>
 <br>
 ![Description](C.png)
-#### Ekstra kieli Rust
+### Ekstra kieli Rust
 Asennan paketinhallinnasta Rust kielen. Ensin piti etsiä mitä asennetaan. <br>
 $ sudo apt search rust <br>
 Hetken selailin listaa ja päätin että ladataan koko ohjelmointikieli. <br>
@@ -53,3 +53,17 @@ Komennosta haluttiin kaikille suoritettava, täytyy muokata käyttöoikeuksia <b
 <br>
 Chmodilla annetaan eXecute/suoritus oikeudet tiedostoon kaikille käyttäjille. <br>
 Testin perusteella se toimii halutusti. <br>
+### Vanha labraharjoitus
+Selasin 6 vanhaa laboratorioharjoitusta läpi <br>
+Teemat vaihtelee sen verran paljon ettei varsinaisesti kannata alkaa suorittaa yhtä <br>
+Listataan muutama yleisin kohta tehtävistä. <br>
+Käyttäjien lisääminen sudo adduser (nimi) ja loput tiedot. <br>
+Nettisivujen hallinta. Apachen ylipäätään.<br>
+Nimipohjainen virtuaalipalvelu ja hosts tiedoston käyttö. /etc/apache2/sites-available .conf tiedostot. <br>
+Skriptien tekeminen ja käyttöoikeuksien hallinta, chmod skripti.sh <br>
+SSH käyttö. <br>
+Tehtävänantojen perusteella tietoa tarvitsee hakea lokeista tarkasti ( | grep] käyttö<br>
+Erilaisten ohjelmien asentaminen ja paketinhallinta sudo apt-get update/upgrade ja install <br>
+### Labrakone
+Arvioitavaa tehtävää varten teen uuden virtuaalikoneen (labrakone) samoilla spekseillä kuin kurssilla käytetyn 4mb muistia, 4 prosessoria ja 20gb kovalevytilaa. Suominäppis tietysti <br>
+

@@ -67,4 +67,7 @@ Tehtävänantojen perusteella tietoa tarvitsee hakea lokeista tarkasti ( | grep]
 Erilaisten ohjelmien asentaminen ja paketinhallinta sudo apt-get update/upgrade ja install <br>
 ### Labrakone
 Arvioitavaa tehtävää varten teen uuden virtuaalikoneen (labrakone) samoilla spekseillä kuin kurssilla käytetyn 4mb muistia, 4 prosessoria ja 20gb kovalevytilaa. Suominäppis tietysti <br>
-
+Kone toimii. <br>
+### Lähteet
+Tero Karvinen <br>
+https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/

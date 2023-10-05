@@ -42,3 +42,14 @@ Laskuoperaattorit <br>
 <br>
 ![Description](laskin.png)
 <br>
+#### Shell skripti ja uusi komento
+Teen microlla tiedoston helloworld.sh ja sisältö selviää kuvasta. <br>
+<br>
+![Description](bash.png)
+<br>
+Komennosta haluttiin kaikille suoritettava, täytyy muokata käyttöoikeuksia <br>
+<br>
+![Description](bash2.png)
+<br>
+Chmodilla annetaan eXecute/suoritus oikeudet tiedostoon kaikille käyttäjille. <br>
+Testin perusteella se toimii halutusti. <br>

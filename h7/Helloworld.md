@@ -20,4 +20,4 @@ Javan kanssa seurasin suoraan ohjeita, muutin vaan koodia vähän. <br>
 ![Description](java.png)
 #### C
 C:n kanssa myös ohjeiden mukaan. <br>
-![Description](java.png)
+![Description](C.png)

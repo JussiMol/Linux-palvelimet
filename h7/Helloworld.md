@@ -32,3 +32,4 @@ $ sudo apt-get install rust-all <br>
 <br>
 ![Description](rust.png)
 <br>
+Microlla tein hello_world.rs tiedoston ja käännettiin rustrc komennolla <br> 

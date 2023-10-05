@@ -10,4 +10,5 @@ H6 https://github.com/JussiMol/Linux-palvelimet/blob/8c93c8786d0d7789193efcf162f
 Itselle <a href="https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/"> artikkelin</a> kielistä ainoa kunnolla tuttu on python.<br>
 Hello world monella eri kielellä.<br>
 ## a) Hei maailma
-Tehdään yksinkertaiset hello world ohjelmat Tero Karvisen<a href="https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/"> artikkelin</a> ohjeita seuraten Pythonilla, Javalla ja C:llä.<br>
+Tehdään yksinkertaiset hello world ohjelmat Tero Karvisen<a href="https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/"> artikkelin</a> ohjeita seuraten Javalla ja C:llä. Pythonilla voi vähän kikkailla kun se on itselle entuudestaan tuttu kieli.<br>
+
